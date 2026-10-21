@@ -1,0 +1,4038 @@
+{
+  "source_document": [
+    {
+      "id": "vpl1",
+      "filename": "VPL-1_resources.pdf",
+      "sha256": "55bda46ee64050779782a87ec18ad678f2df902f6bf9fa01e5df419d58d96016",
+      "text_sha256": "696c2861552ed053c32f1a5577169202fcdf99f71adcf0d09bc651dc2c7c050d",
+      "page_count": 5,
+      "ingested_on": "2026-10-21"
+    }
+  ],
+  "resource": [
+    {
+      "id": "r001",
+      "title": "How to protect yourself from financial scams targeting older adults: Americans over 60 are losing billions of dollars to fraud, a far bigger threat than physical crime",
+      "publication_value": "2026-03-12",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "The Wall Street Journal",
+      "citation_text": "1. Ansberry, C. (2026, March 12). How to protect yourself from financial scams targeting older adults: Americans over 60 are losing billions of dollars to fraud, a far bigger threat than physical crime. The Wall Street Journal. https://www.wsj.com/health/wellness/how-to-protect-yourself-from-financial- scams-targeting-older-adults-8bcffeda",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r002",
+      "title": "Older adults and scam awareness: Exploring vulnerability within geriatric oncology",
+      "publication_value": "2020",
+      "publication_precision": "year",
+      "container_title": "Clinical Journal of Oncology Nursing, 24(4), 434–438",
+      "publisher_statement": null,
+      "citation_text": "2. Boyle, D. A. (2020). Older adults and scam awareness: Exploring vulnerability within geriatric oncology. Clinical Journal of Oncology Nursing, 24(4), 434–438. https://doi.org/10.1188/20.CJON.434-438",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r003",
+      "title": "Examining older adults’ vulnerability to online health scams: Insights from routine activity theory",
+      "publication_value": "2025",
+      "publication_precision": "year",
+      "container_title": "Frontiers in Public Health, 13, 1585851",
+      "publisher_statement": null,
+      "citation_text": "3. Chen, H., He, M., Xu, X., & Atkin, D. (2025). Examining older adults’ vulnerability to online health scams: Insights from routine activity theory. Frontiers in Public Health, 13, 1585851. https://doi.org/10.3389/fpubh.2025.1585851",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r004",
+      "title": "The role of misinformation in elder fraud: A conceptual framework",
+      "publication_value": "2026",
+      "publication_precision": "year",
+      "container_title": "Information Research, 31(iConf), 1054–1066",
+      "publisher_statement": null,
+      "citation_text": "4. Chen, J., & Ono, M. P. (2026). The role of misinformation in elder fraud: A conceptual framework. Information Research, 31(iConf), 1054–1066. https://doi.org/10.47989/ir31iConf64186",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r005",
+      "title": "Protecting older adults from fraud and financial exploitation",
+      "publication_value": "2026-03-10",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "5. Consumer Financial Protection Bureau. (2026, March 10). Protecting older adults from fraud and financial exploitation. https://www.consumerfinance.gov/consumer-tools/educator-tools/resources- for-older-adults/",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r006",
+      "title": "Elder fraud and financial exploitation: Application of routine activity theory",
+      "publication_value": "2018",
+      "publication_precision": "year",
+      "container_title": "The Gerontologist, 58(4), 706–718",
+      "publisher_statement": null,
+      "citation_text": "6. DeLiema, M. (2018). Elder fraud and financial exploitation: Application of routine activity theory. The Gerontologist, 58(4), 706–718. https://doi.org/10.1093/geront/gnw258",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r007",
+      "title": "Financial fraud and deception in aging",
+      "publication_value": "2023",
+      "publication_precision": "year",
+      "container_title": "Advances in Geriatric Medicine and Research, 5(3), e230007",
+      "publisher_statement": null,
+      "citation_text": "7. Ebner, N. C., Pehlivanoglu, D., & Shoenfelt, A. (2023). Financial fraud and deception in aging. Advances in Geriatric Medicine and Research, 5(3), e230007. https://doi.org/10.20900/agmr20230007",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r008",
+      "title": "iPhone 16 for Seniors: The Absolute Beginner’s Guide to Every Button, Icon, and Screen Explained in Plain English—with Large Print and Step-by-Step Instructions",
+      "publication_value": "2026",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "Independently published",
+      "citation_text": "8. Ellery, M. J. (2026). iPhone 16 for Seniors: The Absolute Beginner’s Guide to Every Button, Icon, and Screen Explained in Plain English—with Large Print and Step-by-Step Instructions. Independently published.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r009",
+      "title": "Don’t Click That: A Senior’s 10-Day Guide to Staying Safe Online — Large",
+      "publication_value": "2026",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "9. Freeman, A. (2026). Don’t Click That: A Senior’s 10-Day Guide to Staying Safe Online — Large.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r010",
+      "title": "Elder fraud",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "10. Federal Bureau of Investigation. (n.d.). Elder fraud. Retrieved September 23, 2026, from https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/elder-fraud",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r011",
+      "title": "Inclusive interface design for seniors: Image-browsing for a health information context",
+      "publication_value": "2007",
+      "publication_precision": "year",
+      "container_title": "Journal of the American Society for Information Science & Technology, 58(11), 1610–1617",
+      "publisher_statement": null,
+      "citation_text": "11. Given, L. M., Ruecker, S., Simpson, H., Sadler, E., & Ruskin, A. (2007). Inclusive interface design for seniors: Image-browsing for a health information context. Journal of the American Society for Information Science & Technology, 58(11), 1610–1617. https://doi.org/10.1002/asi.20645",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r012",
+      "title": "The complete Windows 11 guide for seniors: An easy, step-by-step visual guide for beginners packed with clear pictures to master Windows 11 without frustration",
+      "publication_value": "2025",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "Independently published",
+      "citation_text": "12. Grant, W. (2025). The complete Windows 11 guide for seniors: An easy, step-by-step visual guide for beginners packed with clear pictures to master Windows 11 without frustration. Independently published.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r013",
+      "title": "Fighting phishing: Everything you can do to fight social engineering and phishing",
+      "publication_value": "2024",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "John Wiley & Sons",
+      "citation_text": "13. Grimes, R. A. (2024). Fighting phishing: Everything you can do to fight social engineering and phishing. John Wiley & Sons.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r014",
+      "title": "Delphi study of risk to individuals who disclose personal information online",
+      "publication_value": "2023",
+      "publication_precision": "year",
+      "container_title": "Journal of Information Science, 49(1), 93–106",
+      "publisher_statement": null,
+      "citation_text": "14. Haynes, D., & Robinson, L. (2023). Delphi study of risk to individuals who disclose personal information online. Journal of Information Science, 49(1), 93–106. https://doi.org/10.1177/0165551521992756",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r015",
+      "title": "Eldercare and aging: Online information for librarians and caregivers",
+      "publication_value": "2009",
+      "publication_precision": "year",
+      "container_title": "College & Research Libraries News, 70(9), 526–530",
+      "publisher_statement": null,
+      "citation_text": "15. Hudson, A. (2009). Eldercare and aging: Online information for librarians and caregivers. College & Research Libraries News, 70(9), 526–530",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r016",
+      "title": "BSAFE: Bankers and seniors against financial exploitation*",
+      "publication_value": "2023",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "16. Illinois Department on Aging. (2023). BSAFE: Bankers and seniors against financial exploitation* [Brochure].https://ilaging.illinois.gov/content/dam/soi/en/web/aging/resources/newsandpublications/p ublications/documents/stop-senior-exploitation-bankers-b-safe-brochure.pdf",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r017",
+      "title": "How to block scam calls, the top source of fraud against older adults",
+      "publication_value": "2023-01-12",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "The Wall Street Journal",
+      "citation_text": "17. Jargon, J. (2023, January 12). How to block scam calls, the top source of fraud against older adults. The Wall Street Journal. https://www.wsj.com/articles/how-to-block-scam-calls-the-top-source-of- fraud-against-older-adults-11673051224",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r018",
+      "title": "The top 5 financial scams targeting older adults",
+      "publication_value": "2026-08-07",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "National Council on Aging",
+      "citation_text": "18. Johnston, J. (2026, August 7). The top 5 financial scams targeting older adults. National Council on Aging. https://www.ncoa.org/article/top-5-financial-scams-targeting-older-adults/",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r019",
+      "title": "Help take action against online scams",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "19. National Council on Aging. (n.d.). Help take action against online scams. Retrieved September 23, 2026, from https://www.ncoa.org/page/ncoa-zelle-world-elder-abuse-awareness-day-social-media- toolkit/",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r020",
+      "title": "Fraud awareness and prevention for older adults and people with disabilities",
+      "publication_value": "2026",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "Library of Congress",
+      "citation_text": "20. National Library Service for the Blind and Print Disabled. (2026). Fraud awareness and prevention for older adults and people with disabilities. Library of Congress. https://www.loc.gov/nls/services- and-resources/informational-publications/fraud-awareness-and-prevention-for-older-adults-and- people-with-disabilities/",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r021",
+      "title": "Preventing AI scams: Digital defense in an evolving online ecosystem",
+      "publication_value": "2026-04-27",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "Northwestern University",
+      "citation_text": "21. Northwestern University Information Technology. (2026, April 27). Preventing AI scams: Digital defense in an evolving online ecosystem. Northwestern University. https://www.it.northwestern.edu/about/news-events/2026/preventing-ai-scams-digital-defense-in-an- evolving-online-ecosystem.html",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r022",
+      "title": "National Elder Fraud Hotline",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": "U.S. Department of Justice",
+      "citation_text": "22. Office for Victims of Crime. (n.d.). National Elder Fraud Hotline. U.S. Department of Justice. Retrieved September 23, 2026, from https://ovc.ojp.gov/program/stop-elder-fraud/providing-help- restoring-hope",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r023",
+      "title": "Steer clear of the sweetheart scam",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "23. Office of the Illinois Attorney General. (n.d.). Steer clear of the sweetheart scam [Fact sheet]. https://illinoisattorneygeneral.gov/Page-Attachments/SweetheartScam.pdf",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r024",
+      "title": "Protecting your parents’ money: The essential guide to helping Mom and Dad navigate the finances of retirement",
+      "publication_value": "2011",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "HarperCollins",
+      "citation_text": "24. Opdyke, J. D. (2011). Protecting your parents’ money: The essential guide to helping Mom and Dad navigate the finances of retirement. HarperCollins.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r025",
+      "title": "A practical guide to elderly fraud",
+      "publication_value": "2025",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "Law Brief Publishing",
+      "citation_text": "25. Patten, J. (2025). A practical guide to elderly fraud. Law Brief Publishing. https://www.lawbriefpublishing.com/product/elderlyfraud",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r026",
+      "title": "Elder financial abuse and inheritance fraud: Prevention, detection and legal enforcement",
+      "publication_value": "2025",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "Michael D. Rudy",
+      "citation_text": "26. Rudy, M. D. (2025). Elder financial abuse and inheritance fraud: Prevention, detection and legal enforcement. Michael D. Rudy.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r027",
+      "title": "Journal of Elder Abuse & Neglect",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "27. Taylor & Francis. (n.d.). Journal of Elder Abuse & Neglect. Retrieved September 23, 2026, from https://www.tandfonline.com/journals/wean20",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r028",
+      "title": "Get involved, get safe community presentations",
+      "publication_value": "2025-01-17",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "28. U.S. Department of Justice. (2025, January 17). Get involved, get safe community presentations. https://www.justice.gov/elderjustice/get-involved-get-safe-community-presentations",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r029",
+      "title": "Websites and resources",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": "Elder Justice Initiative",
+      "publisher_statement": null,
+      "citation_text": "29. U.S. Department of Justice. (n.d.). Websites and resources. Elder Justice Initiative. https://www.justice.gov/elderjustice/websites-and-resources",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r030",
+      "title": "Elder fraud",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "30. United States Secret Service. (n.d.). Elder fraud. Retrieved September 19, 2026, from https://www.secretservice.gov/investigations/elderfraud",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r031",
+      "title": "The rise of predatory scams—and how to prevent them",
+      "publication_value": "2021-06",
+      "publication_precision": "month",
+      "container_title": null,
+      "publisher_statement": "TED Conferences",
+      "citation_text": "31. Walsh, J. (2021, June). The rise of predatory scams—and how to prevent them [Video]. TED Conferences. https://www.ted.com/talks/jane_walsh_the_rise_of_predatory_scams_and_how_to_prevent_them",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r032",
+      "title": "Dot con: The art of scamming a scammer",
+      "publication_value": "2020",
+      "publication_precision": "year",
+      "container_title": null,
+      "publisher_statement": "Grand Central Publishing",
+      "citation_text": "32. Veitch, J. (2020). Dot con: The art of scamming a scammer. Grand Central Publishing.",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r033",
+      "title": "Here are ways you can avoid social media shopping scams",
+      "publication_value": "2023-04-05",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "1. AARP Live. (2023, April 5). Here are ways you can avoid social media shopping scams [Video]. YouTube.YouTube video",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r034",
+      "title": "What Is Phishing? And How to Avoid the Bait",
+      "publication_value": "2019-10-01",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "2. Lamb, Mike. (2019, October 1). What Is Phishing? And How to Avoid the Bait (Youtube) https://www.youtube.com/watch?v=XsOWczwRVuc",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r035",
+      "title": "The Art of Social Engineering",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "3. The Art of Social Engineering. (n.d.). Retrieved September 21, 2026, from https://learning.oreilly.com/library/view/the-art-of/9781804613641/",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r036",
+      "title": "EASY MONEY: FINANCIAL SCAMS AND OLDER ADULTS - ClinicalKey",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "4. EASY MONEY: FINANCIAL SCAMS AND OLDER ADULTS - ClinicalKey. (n.d.). Retrieved September 21, 2026, from https://www-clinicalkey- com.proxy2.library.illinois.edu/#!/content/journal/1-s2.0-S106474812030035X\\",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r037",
+      "title": "A Tour of Terrible Ads on Yahoo (Plus a Little Mild Scambaiting)",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "5. A Tour of Terrible Ads on Yahoo (Plus a Little Mild Scambaiting), Atomic Shrimp, youtube.com/watch?v=VeD9dUUFl-E",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r038",
+      "title": "What is a reverse mortgage, and is it a good idea for you?",
+      "publication_value": "2023-06-01",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "6. Josh Denbeaux - Mortgage & Foreclosure Attorney. (2023, June 1). What is a reverse mortgage, and is it a good idea for you? [Video]. YouTube. https://www.youtube.com/watch?v=W_sBsBvGJLM",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r039",
+      "title": "Fast cash, big risks: Spotting predatory lenders | It’s a money thing",
+      "publication_value": "2017-08-25",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "7. Red Canoe Credit Union. (2017, August 25). Fast cash, big risks: Spotting predatory lenders | It’s a money thing [Video]. YouTube. https://www.youtube.com/watch?v=gHaX3ThW8I4",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r040",
+      "title": "Elder fraud prevention: Spot the red flags before it’s too late | Long version",
+      "publication_value": "2026-02-12",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "8. sandiegoda. (2026, February 12). Elder fraud prevention: Spot the red flags before it’s too late | Long version [Video]. YouTube. https://www.youtube.com/watch?v=IljMX5h_GDE",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r041",
+      "title": "Phishing explained in 6 minutes | What is a phishing attack? | Phishing attack | Simplilearn",
+      "publication_value": "2021-09-16",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "9. Simplilearn. (2021, September 16). Phishing explained in 6 minutes | What is a phishing attack? | Phishing attack | Simplilearn [Video]. YouTube. https://www.youtube.com/watch?v=XBkzBrXlle0",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r042",
+      "title": "How to spot fake AI photos | Hany Farid | TED",
+      "publication_value": "2025-07-18",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "10. TED. (2025, July 18). How to spot fake AI photos | Hany Farid | TED [Video]. YouTube. https://www.youtube.com/watch?v=q5_PrTvNypY",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r043",
+      "title": "Jane Walsh: The rise of predatory scams -- and how to prevent them | TED",
+      "publication_value": "2022-02-05",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "11. TED. (2022, February 5). Jane Walsh: The rise of predatory scams -- and how to prevent them | TED [Video recording]. https://www.youtube.com/watch?v=eIRtcspIH4U",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r044",
+      "title": "How to tell what’s real and what’s AI-generated on social media",
+      "publication_value": "2026-03-04",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "12. TODAY. (2026, March 4). How to tell what’s real and what’s AI-generated on social media [Video]. YouTube. https://www.youtube.com/watch?v=MtEe3NJnqQs",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r045",
+      "title": "Predatory lending: What to watch out for",
+      "publication_value": "2021-01-01",
+      "publication_precision": "day",
+      "container_title": null,
+      "publisher_statement": "YouTube",
+      "citation_text": "13. Yahoo Finance. (2021, January 1). Predatory lending: What to watch out for [Video]. YouTube. https://www.youtube.com/watch?v=4wj2daqQi9I",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r046",
+      "title": "Small Talks for Big Change: Elder Fraud Prevention in a Digital Age",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "Farrell, A. (n.d.). Small Talks for Big Change: Elder Fraud Prevention in a Digital Age. Retrieved September 19, 2026,from https://d3deb460-a746-47fe-a802-c309230a46eb.libsyn.com/elder-fraud- prevention-in-a-digital-age",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r047",
+      "title": "National Elder Fraud Hotline",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "National Elder Fraud Hotline (833-372-8311)",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r048",
+      "title": "Romance/Sweetheart Scam Alert",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "Romance/Sweetheart Scam Alert",
+      "verification_status": "unverified"
+    },
+    {
+      "id": "r049",
+      "title": "Illinois Department of Aging Flye",
+      "publication_value": null,
+      "publication_precision": "unknown",
+      "container_title": null,
+      "publisher_statement": null,
+      "citation_text": "Illinois Department of Aging Flye",
+      "verification_status": "unverified"
+    }
+  ],
+  "source_mention": [
+    {
+      "id": "bib-01",
+      "resource_id": "r001",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 1,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "1. Ansberry, C. (2026, March 12). How to protect yourself from financial scams targeting older adults:\n    Americans over 60 are losing billions of dollars to fraud, a far bigger threat than physical crime. The\n    Wall Street Journal. https://www.wsj.com/health/wellness/how-to-protect-yourself-from-financial-\n    scams-targeting-older-adults-8bcffeda",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-02",
+      "resource_id": "r002",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 2,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "2. Boyle, D. A. (2020). Older adults and scam awareness: Exploring vulnerability within geriatric\n    oncology. Clinical Journal of Oncology Nursing, 24(4), 434–438.\n    https://doi.org/10.1188/20.CJON.434-438",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-03",
+      "resource_id": "r003",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 3,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "3. Chen, H., He, M., Xu, X., & Atkin, D. (2025). Examining older adults’ vulnerability to online health\n    scams: Insights from routine activity theory. Frontiers in Public Health, 13, 1585851.\n    https://doi.org/10.3389/fpubh.2025.1585851",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-04",
+      "resource_id": "r004",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 4,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "4. Chen, J., & Ono, M. P. (2026). The role of misinformation in elder fraud: A conceptual framework.\n    Information Research, 31(iConf), 1054–1066. https://doi.org/10.47989/ir31iConf64186",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-05",
+      "resource_id": "r005",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 5,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "5. Consumer Financial Protection Bureau. (2026, March 10). Protecting older adults from fraud and\n    financial exploitation. https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-\n    for-older-adults/",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-06",
+      "resource_id": "r006",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 6,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "6. DeLiema, M. (2018). Elder fraud and financial exploitation: Application of routine activity theory.\n    The Gerontologist, 58(4), 706–718. https://doi.org/10.1093/geront/gnw258",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-07",
+      "resource_id": "r007",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 7,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "7. Ebner, N. C., Pehlivanoglu, D., & Shoenfelt, A. (2023). Financial fraud and deception in aging.\n    Advances in Geriatric Medicine and Research, 5(3), e230007.\n    https://doi.org/10.20900/agmr20230007",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-08",
+      "resource_id": "r008",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 8,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "8. Ellery, M. J. (2026). iPhone 16 for Seniors: The Absolute Beginner’s Guide to Every Button, Icon,\n    and Screen Explained in Plain English—with Large Print and Step-by-Step Instructions.\n    Independently published.",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-09",
+      "resource_id": "r009",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 9,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "9. Freeman, A. (2026). Don’t Click That: A Senior’s 10-Day Guide to Staying Safe Online — Large.",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-10",
+      "resource_id": "r010",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 10,
+      "page_start": 2,
+      "page_end": 2,
+      "citation_raw": "10. Federal Bureau of Investigation. (n.d.). Elder fraud. Retrieved September 23, 2026, from\n    https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/elder-fraud",
+      "retrieved_on": "2026-09-23"
+    },
+    {
+      "id": "bib-11",
+      "resource_id": "r011",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 11,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "11. Given, L. M., Ruecker, S., Simpson, H., Sadler, E., & Ruskin, A. (2007). Inclusive interface design\n    for seniors: Image-browsing for a health information context. Journal of the American Society for\n    Information Science & Technology, 58(11), 1610–1617. https://doi.org/10.1002/asi.20645",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-12",
+      "resource_id": "r012",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 12,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "12. Grant, W. (2025). The complete Windows 11 guide for seniors: An easy, step-by-step visual guide for\n    beginners packed with clear pictures to master Windows 11 without frustration. Independently\n    published.",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-13",
+      "resource_id": "r013",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 13,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "13. Grimes, R. A. (2024). Fighting phishing: Everything you can do to fight social engineering and\n    phishing. John Wiley & Sons.",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-14",
+      "resource_id": "r014",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 14,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "14. Haynes, D., & Robinson, L. (2023). Delphi study of risk to individuals who disclose personal\n    information online. Journal of Information Science, 49(1), 93–106.\n    https://doi.org/10.1177/0165551521992756",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-15",
+      "resource_id": "r015",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 15,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "15. Hudson, A. (2009). Eldercare and aging: Online information for librarians and caregivers. College &\n    Research Libraries News, 70(9), 526–530",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-16",
+      "resource_id": "r016",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 16,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "16. Illinois Department on Aging. (2023). BSAFE: Bankers and seniors against financial exploitation*\n    [Brochure].https://ilaging.illinois.gov/content/dam/soi/en/web/aging/resources/newsandpublications/p\n    ublications/documents/stop-senior-exploitation-bankers-b-safe-brochure.pdf",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-17",
+      "resource_id": "r017",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 17,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "17. Jargon, J. (2023, January 12). How to block scam calls, the top source of fraud against older adults.\n    The Wall Street Journal. https://www.wsj.com/articles/how-to-block-scam-calls-the-top-source-of-\n    fraud-against-older-adults-11673051224",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-18",
+      "resource_id": "r018",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 18,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "18. Johnston, J. (2026, August 7). The top 5 financial scams targeting older adults. National Council on\n    Aging. https://www.ncoa.org/article/top-5-financial-scams-targeting-older-adults/",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-19",
+      "resource_id": "r019",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 19,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "19. National Council on Aging. (n.d.). Help take action against online scams. Retrieved September 23,\n    2026, from https://www.ncoa.org/page/ncoa-zelle-world-elder-abuse-awareness-day-social-media-\n    toolkit/",
+      "retrieved_on": "2026-09-23"
+    },
+    {
+      "id": "bib-20",
+      "resource_id": "r020",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 20,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "20. National Library Service for the Blind and Print Disabled. (2026). Fraud awareness and prevention\n    for older adults and people with disabilities. Library of Congress. https://www.loc.gov/nls/services-\n    and-resources/informational-publications/fraud-awareness-and-prevention-for-older-adults-and-\n    people-with-disabilities/",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-21",
+      "resource_id": "r021",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 21,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "21. Northwestern University Information Technology. (2026, April 27). Preventing AI scams: Digital\n    defense in an evolving online ecosystem. Northwestern University.\n    https://www.it.northwestern.edu/about/news-events/2026/preventing-ai-scams-digital-defense-in-an-\n    evolving-online-ecosystem.html",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-22",
+      "resource_id": "r022",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 22,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "22. Office for Victims of Crime. (n.d.). National Elder Fraud Hotline. U.S. Department of Justice.\n    Retrieved September 23, 2026, from https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-\n    restoring-hope",
+      "retrieved_on": "2026-09-23"
+    },
+    {
+      "id": "bib-23",
+      "resource_id": "r023",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 23,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "23. Office of the Illinois Attorney General. (n.d.). Steer clear of the sweetheart scam [Fact sheet].\n    https://illinoisattorneygeneral.gov/Page-Attachments/SweetheartScam.pdf",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-24",
+      "resource_id": "r024",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 24,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "24. Opdyke, J. D. (2011). Protecting your parents’ money: The essential guide to helping Mom and Dad\n    navigate the finances of retirement. HarperCollins.",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-25",
+      "resource_id": "r025",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 25,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "25. Patten, J. (2025). A practical guide to elderly fraud. Law Brief Publishing.\n    https://www.lawbriefpublishing.com/product/elderlyfraud",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-26",
+      "resource_id": "r026",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 26,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "26. Rudy, M. D. (2025). Elder financial abuse and inheritance fraud: Prevention, detection and legal\n    enforcement. Michael D. Rudy.",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-27",
+      "resource_id": "r027",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 27,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "27. Taylor & Francis. (n.d.). Journal of Elder Abuse & Neglect. Retrieved September 23, 2026, from\n    https://www.tandfonline.com/journals/wean20",
+      "retrieved_on": "2026-09-23"
+    },
+    {
+      "id": "bib-28",
+      "resource_id": "r028",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 28,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "28. U.S. Department of Justice. (2025, January 17). Get involved, get safe community presentations.\n    https://www.justice.gov/elderjustice/get-involved-get-safe-community-presentations",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-29",
+      "resource_id": "r029",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 29,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "29. U.S. Department of Justice. (n.d.). Websites and resources. Elder Justice Initiative.\n    https://www.justice.gov/elderjustice/websites-and-resources",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-30",
+      "resource_id": "r030",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 30,
+      "page_start": 3,
+      "page_end": 3,
+      "citation_raw": "30. United States Secret Service. (n.d.). Elder fraud. Retrieved September 19, 2026, from\n    https://www.secretservice.gov/investigations/elderfraud",
+      "retrieved_on": "2026-09-19"
+    },
+    {
+      "id": "bib-31",
+      "resource_id": "r031",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 31,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "31. Walsh, J. (2021, June). The rise of predatory scams—and how to prevent them [Video]. TED\n    Conferences.\n    https://www.ted.com/talks/jane_walsh_the_rise_of_predatory_scams_and_how_to_prevent_them",
+      "retrieved_on": null
+    },
+    {
+      "id": "bib-32",
+      "resource_id": "r032",
+      "source_id": "vpl1",
+      "source_category": "bibliography",
+      "source_position": 32,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "32. Veitch, J. (2020). Dot con: The art of scamming a scammer. Grand Central Publishing.",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-01",
+      "resource_id": "r033",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "1. AARP Live. (2023, April 5). Here are ways you can avoid social media shopping scams [Video].\n    YouTube.YouTube video",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-02",
+      "resource_id": "r034",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 2,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "2. Lamb, Mike. (2019, October 1). What Is Phishing? And How to Avoid the Bait (Youtube)\n    https://www.youtube.com/watch?v=XsOWczwRVuc",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-03",
+      "resource_id": "r035",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 3,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "3. The Art of Social Engineering. (n.d.). Retrieved September 21, 2026, from\n    https://learning.oreilly.com/library/view/the-art-of/9781804613641/",
+      "retrieved_on": "2026-09-21"
+    },
+    {
+      "id": "video-04",
+      "resource_id": "r036",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 4,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "4. EASY MONEY: FINANCIAL SCAMS AND OLDER ADULTS - ClinicalKey. (n.d.). Retrieved\n    September 21, 2026, from https://www-clinicalkey-\n    com.proxy2.library.illinois.edu/#!/content/journal/1-s2.0-S106474812030035X\\",
+      "retrieved_on": "2026-09-21"
+    },
+    {
+      "id": "video-05",
+      "resource_id": "r037",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 5,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "5. A Tour of Terrible Ads on Yahoo (Plus a Little Mild Scambaiting), Atomic Shrimp,\n    youtube.com/watch?v=VeD9dUUFl-E",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-06",
+      "resource_id": "r038",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 6,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "6. Josh Denbeaux - Mortgage & Foreclosure Attorney. (2023, June 1). What is a reverse mortgage, and\n    is it a good idea for you? [Video]. YouTube. https://www.youtube.com/watch?v=W_sBsBvGJLM",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-07",
+      "resource_id": "r039",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 7,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "7. Red Canoe Credit Union. (2017, August 25). Fast cash, big risks: Spotting predatory lenders | It’s a\n    money thing [Video]. YouTube. https://www.youtube.com/watch?v=gHaX3ThW8I4",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-08",
+      "resource_id": "r040",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 8,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "8. sandiegoda. (2026, February 12). Elder fraud prevention: Spot the red flags before it’s too late | Long\n    version [Video]. YouTube. https://www.youtube.com/watch?v=IljMX5h_GDE",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-09",
+      "resource_id": "r041",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 9,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "9. Simplilearn. (2021, September 16). Phishing explained in 6 minutes | What is a phishing attack? |\n    Phishing attack | Simplilearn [Video]. YouTube. https://www.youtube.com/watch?v=XBkzBrXlle0",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-10",
+      "resource_id": "r042",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 10,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "10. TED. (2025, July 18). How to spot fake AI photos | Hany Farid | TED [Video]. YouTube.\n    https://www.youtube.com/watch?v=q5_PrTvNypY",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-11",
+      "resource_id": "r043",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 11,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "11. TED. (2022, February 5). Jane Walsh: The rise of predatory scams -- and how to prevent them | TED\n    [Video recording]. https://www.youtube.com/watch?v=eIRtcspIH4U",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-12",
+      "resource_id": "r044",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 12,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "12. TODAY. (2026, March 4). How to tell what’s real and what’s AI-generated on social media [Video].\n    YouTube. https://www.youtube.com/watch?v=MtEe3NJnqQs",
+      "retrieved_on": null
+    },
+    {
+      "id": "video-13",
+      "resource_id": "r045",
+      "source_id": "vpl1",
+      "source_category": "Videos",
+      "source_position": 13,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "13. Yahoo Finance. (2021, January 1). Predatory lending: What to watch out for [Video]. YouTube.\n    https://www.youtube.com/watch?v=4wj2daqQi9I",
+      "retrieved_on": null
+    },
+    {
+      "id": "podcast-01",
+      "resource_id": "r046",
+      "source_id": "vpl1",
+      "source_category": "Podcasts",
+      "source_position": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "Farrell, A. (n.d.). Small Talks for Big Change: Elder Fraud Prevention in a Digital Age. Retrieved\n    September 19, 2026,from https://d3deb460-a746-47fe-a802-c309230a46eb.libsyn.com/elder-fraud-\n    prevention-in-a-digital-age",
+      "retrieved_on": "2026-09-19"
+    },
+    {
+      "id": "website-01",
+      "resource_id": "r022",
+      "source_id": "vpl1",
+      "source_category": "Websites",
+      "source_position": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "National Elder Fraud Hotline. (n.d.). Office for Victims of Crime. Retrieved September 19, 2026,\n  from https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope",
+      "retrieved_on": "2026-09-19"
+    },
+    {
+      "id": "hotline-01",
+      "resource_id": "r047",
+      "source_id": "vpl1",
+      "source_category": "Hotlines",
+      "source_position": 1,
+      "page_start": 4,
+      "page_end": 4,
+      "citation_raw": "National Elder Fraud Hotline (833-372-8311)",
+      "retrieved_on": null
+    },
+    {
+      "id": "flyer-01",
+      "resource_id": "r048",
+      "source_id": "vpl1",
+      "source_category": "Fliers & Written Resources",
+      "source_position": 1,
+      "page_start": 5,
+      "page_end": 5,
+      "citation_raw": "Romance/Sweetheart Scam Alert",
+      "retrieved_on": null
+    },
+    {
+      "id": "flyer-02",
+      "resource_id": "r049",
+      "source_id": "vpl1",
+      "source_category": "Fliers & Written Resources",
+      "source_position": 2,
+      "page_start": 5,
+      "page_end": 5,
+      "citation_raw": "Illinois Department of Aging Flye",
+      "retrieved_on": null
+    }
+  ],
+  "agent": [
+    {
+      "id": "a001",
+      "name": "Ansberry, C.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a002",
+      "name": "The Wall Street Journal",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a003",
+      "name": "Boyle, D. A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a004",
+      "name": "Chen, H.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a005",
+      "name": "He, M.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a006",
+      "name": "Xu, X.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a007",
+      "name": "Atkin, D.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a008",
+      "name": "Chen, J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a009",
+      "name": "Ono, M. P.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a010",
+      "name": "Consumer Financial Protection Bureau",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a011",
+      "name": "DeLiema, M.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a012",
+      "name": "Ebner, N. C.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a013",
+      "name": "Pehlivanoglu, D.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a014",
+      "name": "Shoenfelt, A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a015",
+      "name": "Ellery, M. J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a016",
+      "name": "Freeman, A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a017",
+      "name": "Federal Bureau of Investigation",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a018",
+      "name": "Given, L. M.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a019",
+      "name": "Ruecker, S.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a020",
+      "name": "Simpson, H.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a021",
+      "name": "Sadler, E.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a022",
+      "name": "Ruskin, A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a023",
+      "name": "Grant, W.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a024",
+      "name": "Grimes, R. A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a025",
+      "name": "John Wiley & Sons",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a026",
+      "name": "Haynes, D.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a027",
+      "name": "Robinson, L.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a028",
+      "name": "Hudson, A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a029",
+      "name": "Illinois Department on Aging",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a030",
+      "name": "Jargon, J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a031",
+      "name": "Johnston, J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a032",
+      "name": "National Council on Aging",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a033",
+      "name": "National Library Service for the Blind and Print Disabled",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a034",
+      "name": "Library of Congress",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a035",
+      "name": "Northwestern University Information Technology",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a036",
+      "name": "Northwestern University",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a037",
+      "name": "Office for Victims of Crime",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a038",
+      "name": "U.S. Department of Justice",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a039",
+      "name": "Office of the Illinois Attorney General",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a040",
+      "name": "Opdyke, J. D.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a041",
+      "name": "HarperCollins",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a042",
+      "name": "Patten, J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a043",
+      "name": "Law Brief Publishing",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a044",
+      "name": "Rudy, M. D.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a045",
+      "name": "Michael D. Rudy",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a046",
+      "name": "Taylor & Francis",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a047",
+      "name": "United States Secret Service",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a048",
+      "name": "Walsh, J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a049",
+      "name": "TED Conferences",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a050",
+      "name": "Veitch, J.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a051",
+      "name": "Grand Central Publishing",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a052",
+      "name": "AARP Live",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a053",
+      "name": "YouTube",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a054",
+      "name": "Lamb, Mike",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a055",
+      "name": "Atomic Shrimp",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a056",
+      "name": "Josh Denbeaux - Mortgage & Foreclosure Attorney",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a057",
+      "name": "Red Canoe Credit Union",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a058",
+      "name": "sandiegoda",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a059",
+      "name": "Simplilearn",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a060",
+      "name": "TED",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a061",
+      "name": "TODAY",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a062",
+      "name": "Yahoo Finance",
+      "agent_kind": "organization",
+      "identity_status": "source_local_unverified"
+    },
+    {
+      "id": "a063",
+      "name": "Farrell, A.",
+      "agent_kind": "person",
+      "identity_status": "source_local_unverified"
+    }
+  ],
+  "resource_agent": [
+    {
+      "resource_id": "r001",
+      "agent_id": "a001",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-01"
+    },
+    {
+      "resource_id": "r001",
+      "agent_id": "a002",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-01"
+    },
+    {
+      "resource_id": "r002",
+      "agent_id": "a003",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-02"
+    },
+    {
+      "resource_id": "r003",
+      "agent_id": "a004",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-03"
+    },
+    {
+      "resource_id": "r003",
+      "agent_id": "a005",
+      "contribution_role": "creator",
+      "credit_order": 2,
+      "source_mention_id": "bib-03"
+    },
+    {
+      "resource_id": "r003",
+      "agent_id": "a006",
+      "contribution_role": "creator",
+      "credit_order": 3,
+      "source_mention_id": "bib-03"
+    },
+    {
+      "resource_id": "r003",
+      "agent_id": "a007",
+      "contribution_role": "creator",
+      "credit_order": 4,
+      "source_mention_id": "bib-03"
+    },
+    {
+      "resource_id": "r004",
+      "agent_id": "a008",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-04"
+    },
+    {
+      "resource_id": "r004",
+      "agent_id": "a009",
+      "contribution_role": "creator",
+      "credit_order": 2,
+      "source_mention_id": "bib-04"
+    },
+    {
+      "resource_id": "r005",
+      "agent_id": "a010",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-05"
+    },
+    {
+      "resource_id": "r006",
+      "agent_id": "a011",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-06"
+    },
+    {
+      "resource_id": "r007",
+      "agent_id": "a012",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-07"
+    },
+    {
+      "resource_id": "r007",
+      "agent_id": "a013",
+      "contribution_role": "creator",
+      "credit_order": 2,
+      "source_mention_id": "bib-07"
+    },
+    {
+      "resource_id": "r007",
+      "agent_id": "a014",
+      "contribution_role": "creator",
+      "credit_order": 3,
+      "source_mention_id": "bib-07"
+    },
+    {
+      "resource_id": "r008",
+      "agent_id": "a015",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-08"
+    },
+    {
+      "resource_id": "r009",
+      "agent_id": "a016",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-09"
+    },
+    {
+      "resource_id": "r010",
+      "agent_id": "a017",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-10"
+    },
+    {
+      "resource_id": "r011",
+      "agent_id": "a018",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-11"
+    },
+    {
+      "resource_id": "r011",
+      "agent_id": "a019",
+      "contribution_role": "creator",
+      "credit_order": 2,
+      "source_mention_id": "bib-11"
+    },
+    {
+      "resource_id": "r011",
+      "agent_id": "a020",
+      "contribution_role": "creator",
+      "credit_order": 3,
+      "source_mention_id": "bib-11"
+    },
+    {
+      "resource_id": "r011",
+      "agent_id": "a021",
+      "contribution_role": "creator",
+      "credit_order": 4,
+      "source_mention_id": "bib-11"
+    },
+    {
+      "resource_id": "r011",
+      "agent_id": "a022",
+      "contribution_role": "creator",
+      "credit_order": 5,
+      "source_mention_id": "bib-11"
+    },
+    {
+      "resource_id": "r012",
+      "agent_id": "a023",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-12"
+    },
+    {
+      "resource_id": "r013",
+      "agent_id": "a024",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-13"
+    },
+    {
+      "resource_id": "r013",
+      "agent_id": "a025",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-13"
+    },
+    {
+      "resource_id": "r014",
+      "agent_id": "a026",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-14"
+    },
+    {
+      "resource_id": "r014",
+      "agent_id": "a027",
+      "contribution_role": "creator",
+      "credit_order": 2,
+      "source_mention_id": "bib-14"
+    },
+    {
+      "resource_id": "r015",
+      "agent_id": "a028",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-15"
+    },
+    {
+      "resource_id": "r016",
+      "agent_id": "a029",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-16"
+    },
+    {
+      "resource_id": "r017",
+      "agent_id": "a030",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-17"
+    },
+    {
+      "resource_id": "r017",
+      "agent_id": "a002",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-17"
+    },
+    {
+      "resource_id": "r018",
+      "agent_id": "a031",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-18"
+    },
+    {
+      "resource_id": "r018",
+      "agent_id": "a032",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-18"
+    },
+    {
+      "resource_id": "r019",
+      "agent_id": "a032",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-19"
+    },
+    {
+      "resource_id": "r020",
+      "agent_id": "a033",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-20"
+    },
+    {
+      "resource_id": "r020",
+      "agent_id": "a034",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-20"
+    },
+    {
+      "resource_id": "r021",
+      "agent_id": "a035",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-21"
+    },
+    {
+      "resource_id": "r021",
+      "agent_id": "a036",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-21"
+    },
+    {
+      "resource_id": "r022",
+      "agent_id": "a037",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-22"
+    },
+    {
+      "resource_id": "r022",
+      "agent_id": "a038",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-22"
+    },
+    {
+      "resource_id": "r023",
+      "agent_id": "a039",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-23"
+    },
+    {
+      "resource_id": "r024",
+      "agent_id": "a040",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-24"
+    },
+    {
+      "resource_id": "r024",
+      "agent_id": "a041",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-24"
+    },
+    {
+      "resource_id": "r025",
+      "agent_id": "a042",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-25"
+    },
+    {
+      "resource_id": "r025",
+      "agent_id": "a043",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-25"
+    },
+    {
+      "resource_id": "r026",
+      "agent_id": "a044",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-26"
+    },
+    {
+      "resource_id": "r026",
+      "agent_id": "a045",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-26"
+    },
+    {
+      "resource_id": "r027",
+      "agent_id": "a046",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-27"
+    },
+    {
+      "resource_id": "r028",
+      "agent_id": "a038",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-28"
+    },
+    {
+      "resource_id": "r029",
+      "agent_id": "a038",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-29"
+    },
+    {
+      "resource_id": "r030",
+      "agent_id": "a047",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-30"
+    },
+    {
+      "resource_id": "r031",
+      "agent_id": "a048",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-31"
+    },
+    {
+      "resource_id": "r031",
+      "agent_id": "a049",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-31"
+    },
+    {
+      "resource_id": "r032",
+      "agent_id": "a050",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "bib-32"
+    },
+    {
+      "resource_id": "r032",
+      "agent_id": "a051",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "bib-32"
+    },
+    {
+      "resource_id": "r033",
+      "agent_id": "a052",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-01"
+    },
+    {
+      "resource_id": "r033",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-01"
+    },
+    {
+      "resource_id": "r034",
+      "agent_id": "a054",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-02"
+    },
+    {
+      "resource_id": "r034",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-02"
+    },
+    {
+      "resource_id": "r037",
+      "agent_id": "a055",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-05"
+    },
+    {
+      "resource_id": "r037",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-05"
+    },
+    {
+      "resource_id": "r038",
+      "agent_id": "a056",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-06"
+    },
+    {
+      "resource_id": "r038",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-06"
+    },
+    {
+      "resource_id": "r039",
+      "agent_id": "a057",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-07"
+    },
+    {
+      "resource_id": "r039",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-07"
+    },
+    {
+      "resource_id": "r040",
+      "agent_id": "a058",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-08"
+    },
+    {
+      "resource_id": "r040",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-08"
+    },
+    {
+      "resource_id": "r041",
+      "agent_id": "a059",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-09"
+    },
+    {
+      "resource_id": "r041",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-09"
+    },
+    {
+      "resource_id": "r042",
+      "agent_id": "a060",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-10"
+    },
+    {
+      "resource_id": "r042",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-10"
+    },
+    {
+      "resource_id": "r043",
+      "agent_id": "a060",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-11"
+    },
+    {
+      "resource_id": "r043",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-11"
+    },
+    {
+      "resource_id": "r044",
+      "agent_id": "a061",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-12"
+    },
+    {
+      "resource_id": "r044",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-12"
+    },
+    {
+      "resource_id": "r045",
+      "agent_id": "a062",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "video-13"
+    },
+    {
+      "resource_id": "r045",
+      "agent_id": "a053",
+      "contribution_role": "publisher",
+      "credit_order": 1,
+      "source_mention_id": "video-13"
+    },
+    {
+      "resource_id": "r046",
+      "agent_id": "a063",
+      "contribution_role": "creator",
+      "credit_order": 1,
+      "source_mention_id": "podcast-01"
+    }
+  ],
+  "format": [
+    {
+      "id": "book",
+      "name": "Book"
+    },
+    {
+      "id": "brochure",
+      "name": "Brochure"
+    },
+    {
+      "id": "fact_sheet",
+      "name": "Fact Sheet"
+    },
+    {
+      "id": "flyer",
+      "name": "Flyer"
+    },
+    {
+      "id": "hotline_service",
+      "name": "Hotline Service"
+    },
+    {
+      "id": "journal",
+      "name": "Journal"
+    },
+    {
+      "id": "journal_article",
+      "name": "Journal Article"
+    },
+    {
+      "id": "news_article",
+      "name": "News Article"
+    },
+    {
+      "id": "podcast",
+      "name": "Podcast"
+    },
+    {
+      "id": "presentation_collection",
+      "name": "Presentation Collection"
+    },
+    {
+      "id": "unknown",
+      "name": "Unknown"
+    },
+    {
+      "id": "video",
+      "name": "Video"
+    },
+    {
+      "id": "web_resource",
+      "name": "Web Resource"
+    }
+  ],
+  "resource_format": [
+    {
+      "resource_id": "r001",
+      "format_id": "news_article",
+      "source_mention_id": "bib-01",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r002",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-02",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r003",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-03",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r004",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-04",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r005",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-05",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r006",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-06",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r007",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-07",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r008",
+      "format_id": "book",
+      "source_mention_id": "bib-08",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r009",
+      "format_id": "book",
+      "source_mention_id": "bib-09",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r010",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-10",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r011",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-11",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r012",
+      "format_id": "book",
+      "source_mention_id": "bib-12",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r013",
+      "format_id": "book",
+      "source_mention_id": "bib-13",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r014",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-14",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r015",
+      "format_id": "journal_article",
+      "source_mention_id": "bib-15",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r016",
+      "format_id": "brochure",
+      "source_mention_id": "bib-16",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r017",
+      "format_id": "news_article",
+      "source_mention_id": "bib-17",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r018",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-18",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r019",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-19",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r020",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-20",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r021",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-21",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r022",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-22",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r023",
+      "format_id": "fact_sheet",
+      "source_mention_id": "bib-23",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r024",
+      "format_id": "book",
+      "source_mention_id": "bib-24",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r025",
+      "format_id": "book",
+      "source_mention_id": "bib-25",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r026",
+      "format_id": "book",
+      "source_mention_id": "bib-26",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r027",
+      "format_id": "journal",
+      "source_mention_id": "bib-27",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r028",
+      "format_id": "presentation_collection",
+      "source_mention_id": "bib-28",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r029",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-29",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r030",
+      "format_id": "web_resource",
+      "source_mention_id": "bib-30",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r031",
+      "format_id": "video",
+      "source_mention_id": "bib-31",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r032",
+      "format_id": "book",
+      "source_mention_id": "bib-32",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r033",
+      "format_id": "video",
+      "source_mention_id": "video-01",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r034",
+      "format_id": "video",
+      "source_mention_id": "video-02",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r035",
+      "format_id": "unknown",
+      "source_mention_id": "video-03",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r036",
+      "format_id": "unknown",
+      "source_mention_id": "video-04",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r037",
+      "format_id": "video",
+      "source_mention_id": "video-05",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r038",
+      "format_id": "video",
+      "source_mention_id": "video-06",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r039",
+      "format_id": "video",
+      "source_mention_id": "video-07",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r040",
+      "format_id": "video",
+      "source_mention_id": "video-08",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r041",
+      "format_id": "video",
+      "source_mention_id": "video-09",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r042",
+      "format_id": "video",
+      "source_mention_id": "video-10",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r043",
+      "format_id": "video",
+      "source_mention_id": "video-11",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r044",
+      "format_id": "video",
+      "source_mention_id": "video-12",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r045",
+      "format_id": "video",
+      "source_mention_id": "video-13",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r046",
+      "format_id": "podcast",
+      "source_mention_id": "podcast-01",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r047",
+      "format_id": "hotline_service",
+      "source_mention_id": "hotline-01",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r048",
+      "format_id": "flyer",
+      "source_mention_id": "flyer-01",
+      "basis": "provisional_curation"
+    },
+    {
+      "resource_id": "r049",
+      "format_id": "flyer",
+      "source_mention_id": "flyer-02",
+      "basis": "provisional_curation"
+    }
+  ],
+  "topic": [
+    {
+      "id": "fraud_prevention",
+      "name": "Fraud prevention and awareness",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "health_scams",
+      "name": "Health and Medicare scams",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "internet_safety",
+      "name": "Internet safety",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "misinformation",
+      "name": "Misinformation and deceptive advertising",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "digital_literacy",
+      "name": "Digital literacy",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "accessible_design",
+      "name": "Accessible interface design",
+      "source_id": "vpl1",
+      "source_page": 3,
+      "basis": "curator_extension_from_citation"
+    },
+    {
+      "id": "phishing",
+      "name": "Phishing",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "social_engineering",
+      "name": "Social engineering",
+      "source_id": "vpl1",
+      "source_page": 3,
+      "basis": "curator_extension_from_citation"
+    },
+    {
+      "id": "caregiving",
+      "name": "Caregiving",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "library_programming",
+      "name": "Library and community programming",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "phone_scams",
+      "name": "Phone scams",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "accessibility",
+      "name": "Disability access",
+      "source_id": "vpl1",
+      "source_page": 3,
+      "basis": "curator_extension_from_citation"
+    },
+    {
+      "id": "ai_scams",
+      "name": "AI impersonation and synthetic media",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "reporting_support",
+      "name": "Reporting and victim support",
+      "source_id": "vpl1",
+      "source_page": 2,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "romance_scams",
+      "name": "Romance and sweetheart scams",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "financial_services",
+      "name": "Financial services and retirement",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "legal_recourse",
+      "name": "Legal recourse",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "shopping_scams",
+      "name": "Online shopping scams",
+      "source_id": "vpl1",
+      "source_page": 4,
+      "basis": "curator_extension_from_citation"
+    },
+    {
+      "id": "predatory_lending",
+      "name": "Predatory lending",
+      "source_id": "vpl1",
+      "source_page": 4,
+      "basis": "curator_extension_from_citation"
+    },
+    {
+      "id": "grandchild_scams",
+      "name": "Grandchild scams",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "tech_support_scams",
+      "name": "Tech support scams",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "government_impersonation",
+      "name": "Government impersonation",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "credit_card_fraud",
+      "name": "Credit card fraud",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "mail_fraud",
+      "name": "Mail fraud",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "basis": "source_planning_vocabulary"
+    },
+    {
+      "id": "tax_assistance",
+      "name": "Tax assistance",
+      "source_id": "vpl1",
+      "source_page": 2,
+      "basis": "source_planning_vocabulary"
+    }
+  ],
+  "audience": [
+    {
+      "id": "older_adults",
+      "name": "Older adults",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "caregivers",
+      "name": "Caregivers",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "family",
+      "name": "Family and support groups",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "library_staff",
+      "name": "Library staff",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "community_organizations",
+      "name": "Community organizations",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "social_workers",
+      "name": "Social workers",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "healthcare_providers",
+      "name": "Healthcare providers",
+      "source_id": "vpl1",
+      "source_page": 1
+    },
+    {
+      "id": "people_with_disabilities",
+      "name": "People with disabilities",
+      "source_id": "vpl1",
+      "source_page": 3
+    }
+  ],
+  "resource_topic": [
+    {
+      "resource_id": "r001",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r002",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-02",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r002",
+      "topic_id": "health_scams",
+      "source_mention_id": "bib-02",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r003",
+      "topic_id": "health_scams",
+      "source_mention_id": "bib-03",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r003",
+      "topic_id": "internet_safety",
+      "source_mention_id": "bib-03",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r004",
+      "topic_id": "misinformation",
+      "source_mention_id": "bib-04",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r004",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-04",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r005",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-05",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r006",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-06",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r007",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-07",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r008",
+      "topic_id": "digital_literacy",
+      "source_mention_id": "bib-08",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r009",
+      "topic_id": "internet_safety",
+      "source_mention_id": "bib-09",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r010",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-10",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r011",
+      "topic_id": "accessible_design",
+      "source_mention_id": "bib-11",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r012",
+      "topic_id": "digital_literacy",
+      "source_mention_id": "bib-12",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r013",
+      "topic_id": "phishing",
+      "source_mention_id": "bib-13",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r013",
+      "topic_id": "social_engineering",
+      "source_mention_id": "bib-13",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r014",
+      "topic_id": "internet_safety",
+      "source_mention_id": "bib-14",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r015",
+      "topic_id": "caregiving",
+      "source_mention_id": "bib-15",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r015",
+      "topic_id": "library_programming",
+      "source_mention_id": "bib-15",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r016",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-16",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r017",
+      "topic_id": "phone_scams",
+      "source_mention_id": "bib-17",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r018",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-18",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r019",
+      "topic_id": "internet_safety",
+      "source_mention_id": "bib-19",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r020",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-20",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r020",
+      "topic_id": "accessibility",
+      "source_mention_id": "bib-20",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r021",
+      "topic_id": "ai_scams",
+      "source_mention_id": "bib-21",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r021",
+      "topic_id": "internet_safety",
+      "source_mention_id": "bib-21",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r022",
+      "topic_id": "reporting_support",
+      "source_mention_id": "bib-22",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r023",
+      "topic_id": "romance_scams",
+      "source_mention_id": "bib-23",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r024",
+      "topic_id": "caregiving",
+      "source_mention_id": "bib-24",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r024",
+      "topic_id": "financial_services",
+      "source_mention_id": "bib-24",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r025",
+      "topic_id": "legal_recourse",
+      "source_mention_id": "bib-25",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r026",
+      "topic_id": "legal_recourse",
+      "source_mention_id": "bib-26",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r026",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-26",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r027",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-27",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r028",
+      "topic_id": "library_programming",
+      "source_mention_id": "bib-28",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r028",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-28",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r029",
+      "topic_id": "reporting_support",
+      "source_mention_id": "bib-29",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r030",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-30",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r031",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "bib-31",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r032",
+      "topic_id": "social_engineering",
+      "source_mention_id": "bib-32",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r033",
+      "topic_id": "shopping_scams",
+      "source_mention_id": "video-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r033",
+      "topic_id": "internet_safety",
+      "source_mention_id": "video-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r034",
+      "topic_id": "phishing",
+      "source_mention_id": "video-02",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r035",
+      "topic_id": "social_engineering",
+      "source_mention_id": "video-03",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r036",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "video-04",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r037",
+      "topic_id": "misinformation",
+      "source_mention_id": "video-05",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r037",
+      "topic_id": "internet_safety",
+      "source_mention_id": "video-05",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r038",
+      "topic_id": "financial_services",
+      "source_mention_id": "video-06",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r039",
+      "topic_id": "predatory_lending",
+      "source_mention_id": "video-07",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r040",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "video-08",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r041",
+      "topic_id": "phishing",
+      "source_mention_id": "video-09",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r042",
+      "topic_id": "ai_scams",
+      "source_mention_id": "video-10",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r042",
+      "topic_id": "misinformation",
+      "source_mention_id": "video-10",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r043",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "video-11",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r044",
+      "topic_id": "ai_scams",
+      "source_mention_id": "video-12",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r044",
+      "topic_id": "misinformation",
+      "source_mention_id": "video-12",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r045",
+      "topic_id": "predatory_lending",
+      "source_mention_id": "video-13",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r046",
+      "topic_id": "fraud_prevention",
+      "source_mention_id": "podcast-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r046",
+      "topic_id": "internet_safety",
+      "source_mention_id": "podcast-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r047",
+      "topic_id": "reporting_support",
+      "source_mention_id": "hotline-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r048",
+      "topic_id": "romance_scams",
+      "source_mention_id": "flyer-01",
+      "basis": "inferred_from_citation",
+      "review_status": "proposed"
+    }
+  ],
+  "resource_audience": [
+    {
+      "resource_id": "r001",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-01",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r002",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-02",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r003",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-03",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r004",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-04",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r005",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-05",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r006",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-06",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r007",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-07",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r008",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-08",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r009",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-09",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r010",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-10",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r011",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-11",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r012",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-12",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r013",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-13",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r014",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-14",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r015",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-15",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r015",
+      "audience_id": "caregivers",
+      "source_mention_id": "bib-15",
+      "basis": "inferred_from_title",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r015",
+      "audience_id": "family",
+      "source_mention_id": "bib-15",
+      "basis": "inferred_from_title",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r015",
+      "audience_id": "library_staff",
+      "source_mention_id": "bib-15",
+      "basis": "inferred_from_title",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r016",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-16",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r017",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-17",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r018",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-18",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r019",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-19",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r020",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-20",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r020",
+      "audience_id": "people_with_disabilities",
+      "source_mention_id": "bib-20",
+      "basis": "inferred_from_title",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r021",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-21",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r022",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-22",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r023",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-23",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r024",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-24",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r024",
+      "audience_id": "caregivers",
+      "source_mention_id": "bib-24",
+      "basis": "inferred_from_title",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r024",
+      "audience_id": "family",
+      "source_mention_id": "bib-24",
+      "basis": "inferred_from_title",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r025",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-25",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r026",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-26",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r027",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-27",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r028",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-28",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r029",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-29",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r030",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-30",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r031",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-31",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r032",
+      "audience_id": "older_adults",
+      "source_mention_id": "bib-32",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r033",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-01",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r034",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-02",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r035",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-03",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r036",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-04",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r037",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-05",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r038",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-06",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r039",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-07",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r040",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-08",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r041",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-09",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r042",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-10",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r043",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-11",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r044",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-12",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r045",
+      "audience_id": "older_adults",
+      "source_mention_id": "video-13",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r046",
+      "audience_id": "older_adults",
+      "source_mention_id": "podcast-01",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r047",
+      "audience_id": "older_adults",
+      "source_mention_id": "hotline-01",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r048",
+      "audience_id": "older_adults",
+      "source_mention_id": "flyer-01",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    },
+    {
+      "resource_id": "r049",
+      "audience_id": "older_adults",
+      "source_mention_id": "flyer-02",
+      "basis": "collection_context",
+      "review_status": "proposed"
+    }
+  ],
+  "identifier": [
+    {
+      "id": "i001",
+      "resource_id": "r001",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.wsj.com/health/wellness/how-to-protect-yourself-from-financial-scams-targeting-older-adults-8bcffeda",
+      "source_mention_id": "bib-01"
+    },
+    {
+      "id": "i002",
+      "resource_id": "r002",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.1188/20.CJON.434-438",
+      "source_mention_id": "bib-02"
+    },
+    {
+      "id": "i003",
+      "resource_id": "r002",
+      "identifier_kind": "doi",
+      "identifier_value": "10.1188/20.cjon.434-438",
+      "source_mention_id": "bib-02"
+    },
+    {
+      "id": "i004",
+      "resource_id": "r003",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.3389/fpubh.2025.1585851",
+      "source_mention_id": "bib-03"
+    },
+    {
+      "id": "i005",
+      "resource_id": "r003",
+      "identifier_kind": "doi",
+      "identifier_value": "10.3389/fpubh.2025.1585851",
+      "source_mention_id": "bib-03"
+    },
+    {
+      "id": "i006",
+      "resource_id": "r004",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.47989/ir31iConf64186",
+      "source_mention_id": "bib-04"
+    },
+    {
+      "id": "i007",
+      "resource_id": "r004",
+      "identifier_kind": "doi",
+      "identifier_value": "10.47989/ir31iconf64186",
+      "source_mention_id": "bib-04"
+    },
+    {
+      "id": "i008",
+      "resource_id": "r005",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.consumerfinance.gov/consumer-tools/educator-tools/resources-for-older-adults/",
+      "source_mention_id": "bib-05"
+    },
+    {
+      "id": "i009",
+      "resource_id": "r006",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.1093/geront/gnw258",
+      "source_mention_id": "bib-06"
+    },
+    {
+      "id": "i010",
+      "resource_id": "r006",
+      "identifier_kind": "doi",
+      "identifier_value": "10.1093/geront/gnw258",
+      "source_mention_id": "bib-06"
+    },
+    {
+      "id": "i011",
+      "resource_id": "r007",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.20900/agmr20230007",
+      "source_mention_id": "bib-07"
+    },
+    {
+      "id": "i012",
+      "resource_id": "r007",
+      "identifier_kind": "doi",
+      "identifier_value": "10.20900/agmr20230007",
+      "source_mention_id": "bib-07"
+    },
+    {
+      "id": "i013",
+      "resource_id": "r010",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.fbi.gov/how-we-can-help-you/common-frauds-and-scams/elder-fraud",
+      "source_mention_id": "bib-10"
+    },
+    {
+      "id": "i014",
+      "resource_id": "r011",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.1002/asi.20645",
+      "source_mention_id": "bib-11"
+    },
+    {
+      "id": "i015",
+      "resource_id": "r011",
+      "identifier_kind": "doi",
+      "identifier_value": "10.1002/asi.20645",
+      "source_mention_id": "bib-11"
+    },
+    {
+      "id": "i016",
+      "resource_id": "r014",
+      "identifier_kind": "url",
+      "identifier_value": "https://doi.org/10.1177/0165551521992756",
+      "source_mention_id": "bib-14"
+    },
+    {
+      "id": "i017",
+      "resource_id": "r014",
+      "identifier_kind": "doi",
+      "identifier_value": "10.1177/0165551521992756",
+      "source_mention_id": "bib-14"
+    },
+    {
+      "id": "i018",
+      "resource_id": "r016",
+      "identifier_kind": "url",
+      "identifier_value": "https://ilaging.illinois.gov/content/dam/soi/en/web/aging/resources/newsandpublications/publications/documents/stop-senior-exploitation-bankers-b-safe-brochure.pdf",
+      "source_mention_id": "bib-16"
+    },
+    {
+      "id": "i019",
+      "resource_id": "r017",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.wsj.com/articles/how-to-block-scam-calls-the-top-source-of-fraud-against-older-adults-11673051224",
+      "source_mention_id": "bib-17"
+    },
+    {
+      "id": "i020",
+      "resource_id": "r018",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.ncoa.org/article/top-5-financial-scams-targeting-older-adults/",
+      "source_mention_id": "bib-18"
+    },
+    {
+      "id": "i021",
+      "resource_id": "r019",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.ncoa.org/page/ncoa-zelle-world-elder-abuse-awareness-day-social-media-toolkit/",
+      "source_mention_id": "bib-19"
+    },
+    {
+      "id": "i022",
+      "resource_id": "r020",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.loc.gov/nls/services-and-resources/informational-publications/fraud-awareness-and-prevention-for-older-adults-and-people-with-disabilities/",
+      "source_mention_id": "bib-20"
+    },
+    {
+      "id": "i023",
+      "resource_id": "r021",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.it.northwestern.edu/about/news-events/2026/preventing-ai-scams-digital-defense-in-an-evolving-online-ecosystem.html",
+      "source_mention_id": "bib-21"
+    },
+    {
+      "id": "i024",
+      "resource_id": "r022",
+      "identifier_kind": "url",
+      "identifier_value": "https://ovc.ojp.gov/program/stop-elder-fraud/providing-help-restoring-hope",
+      "source_mention_id": "bib-22"
+    },
+    {
+      "id": "i025",
+      "resource_id": "r023",
+      "identifier_kind": "url",
+      "identifier_value": "https://illinoisattorneygeneral.gov/Page-Attachments/SweetheartScam.pdf",
+      "source_mention_id": "bib-23"
+    },
+    {
+      "id": "i026",
+      "resource_id": "r025",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.lawbriefpublishing.com/product/elderlyfraud",
+      "source_mention_id": "bib-25"
+    },
+    {
+      "id": "i027",
+      "resource_id": "r027",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.tandfonline.com/journals/wean20",
+      "source_mention_id": "bib-27"
+    },
+    {
+      "id": "i028",
+      "resource_id": "r028",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.justice.gov/elderjustice/get-involved-get-safe-community-presentations",
+      "source_mention_id": "bib-28"
+    },
+    {
+      "id": "i029",
+      "resource_id": "r029",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.justice.gov/elderjustice/websites-and-resources",
+      "source_mention_id": "bib-29"
+    },
+    {
+      "id": "i030",
+      "resource_id": "r030",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.secretservice.gov/investigations/elderfraud",
+      "source_mention_id": "bib-30"
+    },
+    {
+      "id": "i031",
+      "resource_id": "r031",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.ted.com/talks/jane_walsh_the_rise_of_predatory_scams_and_how_to_prevent_them",
+      "source_mention_id": "bib-31"
+    },
+    {
+      "id": "i032",
+      "resource_id": "r034",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=XsOWczwRVuc",
+      "source_mention_id": "video-02"
+    },
+    {
+      "id": "i033",
+      "resource_id": "r035",
+      "identifier_kind": "url",
+      "identifier_value": "https://learning.oreilly.com/library/view/the-art-of/9781804613641/",
+      "source_mention_id": "video-03"
+    },
+    {
+      "id": "i034",
+      "resource_id": "r036",
+      "identifier_kind": "url",
+      "identifier_value": "https://www-clinicalkey-com.proxy2.library.illinois.edu/#!/content/journal/1-s2.0-S106474812030035X",
+      "source_mention_id": "video-04"
+    },
+    {
+      "id": "i035",
+      "resource_id": "r037",
+      "identifier_kind": "url",
+      "identifier_value": "https://youtube.com/watch?v=VeD9dUUFl-E",
+      "source_mention_id": "video-05"
+    },
+    {
+      "id": "i036",
+      "resource_id": "r038",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=W_sBsBvGJLM",
+      "source_mention_id": "video-06"
+    },
+    {
+      "id": "i037",
+      "resource_id": "r039",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=gHaX3ThW8I4",
+      "source_mention_id": "video-07"
+    },
+    {
+      "id": "i038",
+      "resource_id": "r040",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=IljMX5h_GDE",
+      "source_mention_id": "video-08"
+    },
+    {
+      "id": "i039",
+      "resource_id": "r041",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=XBkzBrXlle0",
+      "source_mention_id": "video-09"
+    },
+    {
+      "id": "i040",
+      "resource_id": "r042",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=q5_PrTvNypY",
+      "source_mention_id": "video-10"
+    },
+    {
+      "id": "i041",
+      "resource_id": "r043",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=eIRtcspIH4U",
+      "source_mention_id": "video-11"
+    },
+    {
+      "id": "i042",
+      "resource_id": "r044",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=MtEe3NJnqQs",
+      "source_mention_id": "video-12"
+    },
+    {
+      "id": "i043",
+      "resource_id": "r045",
+      "identifier_kind": "url",
+      "identifier_value": "https://www.youtube.com/watch?v=4wj2daqQi9I",
+      "source_mention_id": "video-13"
+    },
+    {
+      "id": "i044",
+      "resource_id": "r046",
+      "identifier_kind": "url",
+      "identifier_value": "https://d3deb460-a746-47fe-a802-c309230a46eb.libsyn.com/elder-fraud-prevention-in-a-digital-age",
+      "source_mention_id": "podcast-01"
+    },
+    {
+      "id": "i045",
+      "resource_id": "r047",
+      "identifier_kind": "phone",
+      "identifier_value": "+18333728311",
+      "source_mention_id": "hotline-01"
+    }
+  ],
+  "quality_issue": [
+    {
+      "id": "q001",
+      "mention_id": "bib-08",
+      "issue_code": "inferred_format",
+      "detail": "Book format inferred from title and publishing statement; verify edition and large-print claim.",
+      "review_status": "open"
+    },
+    {
+      "id": "q002",
+      "mention_id": "bib-08",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q003",
+      "mention_id": "bib-09",
+      "issue_code": "incomplete_title",
+      "detail": "Citation ends at '— Large'; title and book format require review.",
+      "review_status": "open"
+    },
+    {
+      "id": "q004",
+      "mention_id": "bib-09",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q005",
+      "mention_id": "bib-12",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q006",
+      "mention_id": "bib-13",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q007",
+      "mention_id": "bib-15",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q008",
+      "mention_id": "bib-16",
+      "issue_code": "unexplained_marker",
+      "detail": "Title ends with an unexplained asterisk in the source.",
+      "review_status": "open"
+    },
+    {
+      "id": "q009",
+      "mention_id": "bib-24",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q010",
+      "mention_id": "bib-26",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q011",
+      "mention_id": "bib-31",
+      "issue_code": "possible_duplicate",
+      "detail": "May be the same talk as video #11 (r043); dates and platforms differ.",
+      "review_status": "open"
+    },
+    {
+      "id": "q012",
+      "mention_id": "bib-32",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q013",
+      "mention_id": "video-01",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q014",
+      "mention_id": "video-03",
+      "issue_code": "ambiguous_format",
+      "detail": "Listed under Videos, but URL points to an O’Reilly library item; format unverified.",
+      "review_status": "open"
+    },
+    {
+      "id": "q015",
+      "mention_id": "video-03",
+      "issue_code": "missing_creator",
+      "detail": "Creator or service operator is not established by this citation.",
+      "review_status": "open"
+    },
+    {
+      "id": "q016",
+      "mention_id": "video-04",
+      "issue_code": "ambiguous_format",
+      "detail": "Listed under Videos, but URL points to ClinicalKey journal content.",
+      "review_status": "open"
+    },
+    {
+      "id": "q017",
+      "mention_id": "video-04",
+      "issue_code": "proxy_url",
+      "detail": "Institution-specific proxy URL; no public URL inferred.",
+      "review_status": "open"
+    },
+    {
+      "id": "q018",
+      "mention_id": "video-04",
+      "issue_code": "url_cleanup",
+      "detail": "Removed trailing backslash and joined the wrapped URL; original retained.",
+      "review_status": "open"
+    },
+    {
+      "id": "q019",
+      "mention_id": "video-04",
+      "issue_code": "missing_creator",
+      "detail": "Creator or service operator is not established by this citation.",
+      "review_status": "open"
+    },
+    {
+      "id": "q020",
+      "mention_id": "video-05",
+      "issue_code": "url_cleanup",
+      "detail": "Added https scheme to the source's schemeless YouTube locator.",
+      "review_status": "open"
+    },
+    {
+      "id": "q021",
+      "mention_id": "video-11",
+      "issue_code": "possible_duplicate",
+      "detail": "May be the same talk as bibliography #31 (r031); retained separately.",
+      "review_status": "open"
+    },
+    {
+      "id": "q022",
+      "mention_id": "hotline-01",
+      "issue_code": "service_details_unverified",
+      "detail": "Telephone number is transcribed from the PDF; service hours, eligibility and operator are unknown.",
+      "review_status": "open"
+    },
+    {
+      "id": "q023",
+      "mention_id": "hotline-01",
+      "issue_code": "missing_creator",
+      "detail": "Creator or service operator is not established by this citation.",
+      "review_status": "open"
+    },
+    {
+      "id": "q024",
+      "mention_id": "flyer-01",
+      "issue_code": "incomplete_citation",
+      "detail": "Title only; may correspond to r023, but identity is unconfirmed.",
+      "review_status": "open"
+    },
+    {
+      "id": "q025",
+      "mention_id": "flyer-01",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q026",
+      "mention_id": "flyer-01",
+      "issue_code": "missing_creator",
+      "detail": "Creator or service operator is not established by this citation.",
+      "review_status": "open"
+    },
+    {
+      "id": "q027",
+      "mention_id": "flyer-02",
+      "issue_code": "incomplete_citation",
+      "detail": "Source title appears truncated; no author, date, or locator.",
+      "review_status": "open"
+    },
+    {
+      "id": "q028",
+      "mention_id": "flyer-02",
+      "issue_code": "possible_duplicate",
+      "detail": "Might refer to r016; title is insufficient to merge.",
+      "review_status": "open"
+    },
+    {
+      "id": "q029",
+      "mention_id": "flyer-02",
+      "issue_code": "missing_locator",
+      "detail": "No URL, DOI, or telephone locator supplied; do not invent one.",
+      "review_status": "open"
+    },
+    {
+      "id": "q030",
+      "mention_id": "flyer-02",
+      "issue_code": "missing_creator",
+      "detail": "Creator or service operator is not established by this citation.",
+      "review_status": "open"
+    }
+  ],
+  "resource_relation": [
+    {
+      "id": "rel001",
+      "from_resource_id": "r031",
+      "to_resource_id": "r043",
+      "relation_kind": "possible_same_work",
+      "evidence": "Same talk title and speaker; publication dates and platforms differ.",
+      "review_status": "proposed",
+      "from_mention_id": "bib-31",
+      "to_mention_id": "video-11"
+    },
+    {
+      "id": "rel002",
+      "from_resource_id": "r048",
+      "to_resource_id": "r023",
+      "relation_kind": "possible_same_work",
+      "evidence": "Both concern a sweetheart scam flyer; only one has an identifying URL.",
+      "review_status": "proposed",
+      "from_mention_id": "flyer-01",
+      "to_mention_id": "bib-23"
+    },
+    {
+      "id": "rel003",
+      "from_resource_id": "r049",
+      "to_resource_id": "r016",
+      "relation_kind": "possible_same_work",
+      "evidence": "Illinois aging flyer may refer to BSAFE; insufficient evidence.",
+      "review_status": "proposed",
+      "from_mention_id": "flyer-02",
+      "to_mention_id": "bib-16"
+    },
+    {
+      "id": "rel004",
+      "from_resource_id": "r022",
+      "to_resource_id": "r047",
+      "relation_kind": "describes_service",
+      "evidence": "Both source entries name the National Elder Fraud Hotline; operator not inferred.",
+      "review_status": "proposed",
+      "from_mention_id": "bib-22",
+      "to_mention_id": "hotline-01"
+    }
+  ],
+  "planning_statement": [
+    {
+      "id": "plan-audiences",
+      "source_id": "vpl1",
+      "statement_kind": "audiences",
+      "page_start": 1,
+      "page_end": 1,
+      "statement_text": "1. Users. What types of users students mentioned in their submission?\n\nElders, seniors, and caregivers, older Americans (people over the age of 65, for example), close\nfamily members of the elderly; older adults ages 55 and above, older adults and their support\ngroups, library staff, community organizations; members of the elderly community (> 65 years\nold); social workers, and healthcare providers.\nQuestion: who is consider an elder?\n\n           •   55 or older\n           •   60 or older,\n           •   65 or older"
+    },
+    {
+      "id": "plan-topics",
+      "source_id": "vpl1",
+      "statement_kind": "topics",
+      "page_start": 1,
+      "page_end": 1,
+      "statement_text": "2. Topic or focus of the collection\n\nIdentification of elder fraud and pathways for legal recourse\nInternet safety focuses on identifying AI advertisements, videos, and voices; identifying\nphishing emails; and other general internet safety rules.\nPhone scams: to identify spam calls, a third section would focus on credit card fraud and mail\nfraud, and a fourth section would describe different financial services (specifically home\nrefinancing services).\nTactics employed to carry out the scam, i.e., financial services scams, romance or\n“grandchild” scams, tech support scams, government impersonation scams, phone scams, and\nMedicare or health insurance scams, and how in almost all cases the scammer.\nElder fraud at my library.\n\nBook clubs, author talks, and exercise classes keep people active and engaging with others.\nInformation from the Department of Aging, Senior Centers in the county, and Maryland Legal\nAid."
+    },
+    {
+      "id": "plan-goals",
+      "source_id": "vpl1",
+      "statement_kind": "goals",
+      "page_start": 1,
+      "page_end": 2,
+      "statement_text": "3. Outcomes or goals of the collection\nBuilding collections for the elderly and their caretakers\n\nCreating an infographic, checklist, or interactive prompt designed to help users identify\nwarning signs of elder fraud. Examples could include unexpected requests for money or personal\ninformation, suspicious phone calls or emails, pressure to act immediately, or requests to use\nunusual payment methods.\nVideos to demonstrate common types of elder fraud, explain preventative measures, and provide\nexamples of what someone can do if they suspect they have been targeted. Videos could also\f\ndemonstrate practical actions such as recognizing suspicious messages, avoiding sharing\nsensitive information, documenting a suspected scam, and identifying organizations to contact\nfor assistance.\n\nHaving stories that showcase the experiences to remove that stigma.\nCreating a digital portal with videos covering similar subjects made specifically for the\ncollection.\nOrganize regular digital seminars for elderly people to learn best with a more conversational\nsetting, and it feels more real to them to hear a person speaking to and addressing them.\n\nIn-person classes and presentations in libraries, VFWs, and even churches would be the\nmost beneficial for the elders themselves.\nFor tax season, have state and federal forms printed and available for people to take at public\nlibraries.\nPublic program partnership with AARP Tax Help to help elderly people who need help filing\ntheir taxes.\nSeeking knowledge and information on elder fraud and its prevention and mitigation."
+    },
+    {
+      "id": "plan-unassigned",
+      "source_id": "vpl1",
+      "statement_kind": "unassigned_fragment",
+      "page_start": 4,
+      "page_end": 4,
+      "statement_text": "Virtual assistants, call blocking and robocall apps can keep con artists at bay. Dow Jones & Company Inc."
+    }
+  ],
+  "age_definition": [
+    {
+      "id": "age1",
+      "audience_id": "older_adults",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "minimum_age": 55,
+      "comparison_operator": ">=",
+      "evidence": "55 or older",
+      "review_status": "unresolved"
+    },
+    {
+      "id": "age2",
+      "audience_id": "older_adults",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "minimum_age": 60,
+      "comparison_operator": ">=",
+      "evidence": "60 or older",
+      "review_status": "unresolved"
+    },
+    {
+      "id": "age3",
+      "audience_id": "older_adults",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "minimum_age": 65,
+      "comparison_operator": ">=",
+      "evidence": "65 or older",
+      "review_status": "unresolved"
+    },
+    {
+      "id": "age4",
+      "audience_id": "older_adults",
+      "source_id": "vpl1",
+      "source_page": 1,
+      "minimum_age": 65,
+      "comparison_operator": ">",
+      "evidence": "members of the elderly community (> 65 years old)",
+      "review_status": "unresolved"
+    }
+  ]
+}
