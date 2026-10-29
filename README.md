@@ -1,4 +1,4 @@
-# Neo4j for an elder-fraud resource catalog
+# Neo4j V3 for the anti-fraud resource library
 
 ## Overall graph: what is stored?
 
@@ -28,9 +28,9 @@ The full schema view has **17 node types and 27 type-to-type connections**. The 
 
 Every catalog node also has the technical label `CatalogRecord`, used for import keys and snapshot checks. Hiding that shared label makes the type overview easier to read. Type circles represent categories; use the linked example queries to inspect individual records and their properties. Schema visualization uses metadata statistics; the examples and verification commands check the stored paths.
 
-**Version:** this demo runs the **v1** schema used in the meeting, with separate assignment nodes. Each section explains the proposed compact **v2 design** alongside it. V2 is documented here as a design comparison.
+**V3** brings the catalog, source evidence, and proposed content records into one design. The screenshots and queries use the existing catalog labels. `EvidenceSpan`, `KnowledgeAssertion`, and `Concept` are proposed additions, shown in Part 5. This documentation update leaves the database unchanged.
 
-The [v3 content-layer outline](docs/schema-design.md) adds source passages and reviewable statements to the design. The running demo below continues to use v1.
+Use the [complete English walkthrough](docs/presentation-v3.md) for the presentation and the [V3 schema outline](docs/schema-design.md) for the design discussion.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -67,8 +67,6 @@ In Browser, paste one query, click **Run**, and choose **Graph**. Drag nodes to 
 | `Mention → REFERS_TO → Resource` | Resource identified by the citation. |
 
 For `r034`, the phishing assignment records `basis=inferred_from_citation`, `review_status=proposed`, and `source_mention_id=video-02`. Proposed assignments await catalog-maintainer review. Topic and audience assignments have review states. Format assignments currently store a basis and citation, with no review-state field.
-
-**V2:** replace the three assignment nodes with `ABOUT`, `FOR_AUDIENCE`, and `HAS_FORMAT` relationships. Store the basis and `citation_id` on those relationships; preserve `review_status` on `ABOUT` and `FOR_AUDIENCE`. Rename `Mention` to `Citation`.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -114,8 +112,6 @@ RETURN nodes,
 
 For `r010`, the FBI has the role `creator`, supported by `bib-10`. The role comes from the contribution record. A telephone identifier here is a listed resource contact number.
 
-**V2:** use `Agent:Person` or `Agent:Organization`; replace `Contribution` with `Agent → CREATED/PUBLISHED → Resource`, carrying `credit_order` and `citation_id`. Replace `Identifier` with `Locator:Url`, `Locator:Doi`, or `Locator:Phone`. `Resource → AVAILABLE_AT → Locator` carries `identifier_id` and `citation_id`; the locator stores `value` and `kind`.
-
 <details>
 <summary>Run this view in Neo4j Browser</summary>
 
@@ -157,8 +153,6 @@ RETURN nodes,
 
 Example: `bib-08` on source page 2 identifies `r008` and has an open `missing_locator` issue. Maintainers can check the source, supply a verified locator, and update the issue. Issue states are `open`, `resolved`, or `dismissed`. They track data problems; assignment approval and resource verification are separate fields.
 
-**V2:** `Mention → Citation`, `QualityIssue → Issue`, and `PlanningStatement → Note`. The arrows become `HAS_CITATION`, `CITES`, `FLAGGED`, and `NOTES`. The v2 display omits `ImportBatch`; retaining an import audit node is a separate implementation choice.
-
 <details>
 <summary>Run this view in Neo4j Browser</summary>
 
@@ -198,11 +192,9 @@ RETURN nodes,
 | `SourceDocument → STATES → AgeDefinition` | Provenance of an age condition. |
 | `AgeDefinition → DEFINES_AUDIENCE → Audience` | Audience to which that condition refers. |
 
-The catalog marks **20 topics** as `source_planning_vocabulary` and **5** as `curator_extension_from_citation`. The terms come from the source planning text and extensions based on citations. Import code connects the terms already present in JSON.
+The catalog marks **20 topics** as `source_planning_vocabulary` and **5** as `curator_extension_from_citation`. The terms come from the source planning text and extensions based on citations. Import code connects the terms already present in JSON. Broader vocabulary groups can be added once the team agrees on definitions. Content concepts can reuse Topic IDs where their meanings match.
 
 Four source-page-1 age records point to `older_adults`: `>=55`, `>=60`, `>=65`, and `>65`. All are `unresolved`. `minimum_age`, `comparison_operator`, and `evidence` preserve the distinct source wording for team review.
-
-**V2:** `SourceDocument → LISTS → Topic/Audience/AgeRule`, with `source_page` on `LISTS`. Rename `AgeDefinition` to `AgeRule` and reverse the descriptive direction: `Audience → DEFINED_BY → AgeRule`. The proposed `TopicGroup` layer adds four groups and `IN_GROUP` links; it is absent from this running v1 graph.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -226,7 +218,7 @@ RETURN nodes,
 
 [Real-record example: four older-adult age definitions](neo4j_demo/queries/04_vocabulary_and_age_example.cypher) · Optional type-level schema view: **4 type nodes, 4 arrows**.
 
-## 5. Links between resources
+## 5. Resource connections and content knowledge
 
 ![Actual rel001 resource association](neo4j_demo/images/05_resource_links.svg)
 
@@ -241,8 +233,6 @@ This screenshot shows **real records: 5 nodes and 6 arrows**. `r031` and `r043` 
 | Each `Mention → REFERS_TO → Resource` | Connect each citation to its own resource. |
 
 `rel001` records `possible_same_work`: the catalog's stated evidence is a matching talk title and speaker with different dates and platforms. Its review state is `proposed`. The snapshot contains three possible-same-work links and one `describes_service` link, all proposed. These records already exist in JSON; the importer connects their resource and citation IDs.
-
-**V2:** replace the middle node with `POSSIBLY_SAME_AS` or `DESCRIBES_SERVICE` between two resources. Preserve `id`, `evidence`, `review_status`, `from_citation_id`, and `to_citation_id` as relationship properties. A Resource-to-Resource arc in a type diagram can connect different resource IDs.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -261,17 +251,17 @@ RETURN p, e1, e2, c1, c2;
 
 [Type-level view: 3 types and 5 arrows](neo4j_demo/queries/05_resource_links_schema.cypher).
 
-## Proposed content layer
+### Content connections
 
 The next design step is to connect resources to exact passages and statements drawn from them. `EvidenceSpan` preserves source text, version, and location. `KnowledgeAssertion` retains its interpretation and review state. Shared `Concept` terms connect relevant content across resources.
 
 ![Proposed content layer](docs/schema/content-layer-outline.svg)
 
-Read the [schema outline and JCDL methods](docs/schema-design.md), open the [editable design slides](docs/schema/Neo4j_Schema_Outline_v3_Editable.pptx), or use the [English Word outline](docs/schema/Schema_Outline_and_Discussion_EN.docx). [Questions for Zong-Hua](docs/schema-discussion.md) are listed separately. This is a design proposal. The existing data and live database are unchanged.
+Read the [V3 schema outline and JCDL methods](docs/schema-design.md). [Questions for Zong-Hua](docs/schema-discussion.md) are listed separately. The content connections are the next design step after selecting a question and source material.
 
 ## Run the demo
 
-Run commands from the repository root. Use Python 3.10+ and Docker Desktop for a new database. If a matching v1 demo is already running, use it directly.
+Run commands from the repository root. Use Python 3.10+ and Docker Desktop for a new database. If the catalog demo is already running, use it directly.
 
 ```bash
 python3 -m venv .venv
@@ -318,6 +308,8 @@ The package targets snapshot SHA-256 `32d4cb61c14e276e508bf805fd1c63ac33bd8cce63
 MySQL remains the current preference for catalog entry, filtering, counts, and review. Neo4j makes relationships and supporting paths easier to explore. The proposed content layer gives us concrete questions to use when reconsidering graph requirements. This walkthrough compares data organization and query results; database speed has not been benchmarked. See the [original prototype setup](docs/original-prototype.md) for the MySQL and SQLite commands.
 
 ## Code and references
+
+Earlier notation and design files remain in the [design references](docs/schema-design-history.md).
 
 - [Mapping and source validation](neo4j_version/model.py) · [Driver, constraints, and guarded import](neo4j_version/database.py)
 - [Catalog questions and JSON oracle](neo4j_version/queries.py) · [Walkthrough verification](neo4j_version/walkthrough.py)

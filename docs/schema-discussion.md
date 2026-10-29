@@ -1,6 +1,6 @@
 # Questions for discussion with Zong-Hua
 
-29 October 2026. These decisions guide the first content example.
+29 October 2026. These decisions guide the first content example in the unified V3 design.
 
 ## 1. First question and users
 
@@ -36,4 +36,4 @@ Starting point: Keep the existing catalog and demo. Use the same content example
 
 After the discussion, record the chosen question, source set, vocabulary definitions, review responsibility, and storage approach. Then build a small manually checked example and revise the schema around it.
 
-[Schema outline](schema-design.md) · [English Word outline](schema/Schema_Outline_and_Discussion_EN.docx)
+[V3 schema outline](schema-design.md) · [English walkthrough](presentation-v3.md)
