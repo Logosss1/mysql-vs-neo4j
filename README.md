@@ -6,6 +6,10 @@ The five-page [PDF](VPL-1_resources.pdf) lists **50 resource mentions**. This pr
 
 See the [analysis and comparison](docs/analysis.md) for details and diagrams. The records are in [data/catalog.json](data/catalog.json), and the counts are in [data/profile.json](data/profile.json).
 
+## Neo4j five-part walkthrough
+
+See the [English Neo4j walkthrough](neo4j_demo/README.md) for the overall graph, five focused views, screenshots, runnable Cypher, and a mapping to the proposed compact v2 schema. Its independent loader uses the same `data/catalog.json` snapshot and runs on ports **17474 / 17687**. The original prototype below uses **7474 / 7687**.
+
 ## Run the local demo
 
 Use Python 3.10 or newer with SQLite FTS5 search support. No extra Python packages or internet connection are needed.
@@ -24,7 +28,7 @@ The demo runs in SQLite. The phishing-video search returns `r034` and `r041`. Th
 
 ## Run MySQL and Neo4j
 
-Start Docker Desktop with Linux containers enabled. The setup uses MySQL 8.4 and Neo4j 5.26 Community, including patch updates for those versions. To change the default passwords, copy `.env.example` to `.env` before the first start. Existing databases keep their original passwords.
+Start Docker Desktop with Linux containers enabled. The setup uses MySQL 8.4 and Neo4j 5.26 Community, including patch updates for those versions. Copy `.env.example` to `.env` and choose local passwords before the first start. Existing databases keep their established passwords.
 
 ```powershell
 python -m elder_catalog build
@@ -38,10 +42,10 @@ Remove-Item Env:ELDER_NATIVE_TESTS
 
 These tests load the data twice, check record counts, run example searches, and check database rules. They run only when `ELDER_NATIVE_TESTS=1`. Use databases that contain only prototype data.
 
-| Database | Local address | Database name | User | Default password |
+| Database | Local address | Database name | User | Password configuration |
 | --- | --- | --- | --- | --- |
-| MySQL | `127.0.0.1:3307` | `elder_catalog` | `catalog` | `catalog_local_dev` |
-| Neo4j | `127.0.0.1:7687` | `neo4j` | `neo4j` | `neo4j_local_dev` |
+| MySQL | `127.0.0.1:3307` | `elder_catalog` | `catalog` | `MYSQL_PASSWORD` in `.env` |
+| Neo4j | `127.0.0.1:7687` | `neo4j` | `neo4j` | `NEO4J_PASSWORD` in `.env` |
 
 Open Neo4j Browser at <http://localhost:7474>. The database ports are available only on this computer. Stop the containers and keep their data with:
 

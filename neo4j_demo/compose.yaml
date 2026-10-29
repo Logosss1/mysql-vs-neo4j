@@ -1,0 +1,23 @@
+name: catalog-neo4j-walkthrough
+services:
+  neo4j:
+    image: neo4j:5.26-community@sha256:eaee4488d580749ce332bd028f5be3917edf91f562d76c5443a51c08ec347b1f
+    environment:
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:?Set NEO4J_PASSWORD in neo4j_demo/.env}
+      NEO4J_server_bolt_advertised__address: 127.0.0.1:17687
+      NEO4J_server_memory_heap_initial__size: 256m
+      NEO4J_server_memory_heap_max__size: 512m
+      NEO4J_server_memory_pagecache_size: 256m
+    ports:
+      - "127.0.0.1:17474:7474"
+      - "127.0.0.1:17687:7687"
+    volumes:
+      - walkthrough_data:/data
+    healthcheck:
+      test: ["CMD-SHELL", 'cypher-shell -u neo4j -p "$${NEO4J_AUTH#*/}" "RETURN 1;" >/dev/null 2>&1']
+      interval: 10s
+      timeout: 10s
+      retries: 24
+      start_period: 30s
+volumes:
+  walkthrough_data:

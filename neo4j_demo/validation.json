@@ -1,0 +1,407 @@
+{
+  "status": "PASS",
+  "model": "v1_explicit_assignment_nodes",
+  "source_commit": "37ebfdd0748cb0230459722430c970e1caa5a50e",
+  "snapshot_sha256": "32d4cb61c14e276e508bf805fd1c63ac33bd8cce6397863c8410baba608c957b",
+  "driver_version": "5.28.8",
+  "server": [
+    {
+      "name": "Neo4j Kernel",
+      "versions": [
+        "5.26.32"
+      ],
+      "edition": "community"
+    }
+  ],
+  "snapshot": {
+    "source_arrays_verified": 16,
+    "catalog_records_verified": 541,
+    "catalog_relationships_verified": 1016,
+    "nodes": 542,
+    "relationships": 1017
+  },
+  "catalog_questions": [
+    {
+      "id": "Q01",
+      "question": "How many resources and original mentions are stored?",
+      "rows": 1,
+      "status": "PASS"
+    },
+    {
+      "id": "Q02",
+      "question": "How many resources credit the FBI as creator or publisher?",
+      "rows": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "Q03",
+      "question": "Which resources contain phishing in the title or citation?",
+      "rows": 3,
+      "status": "PASS"
+    },
+    {
+      "id": "Q04",
+      "question": "Which suggested phishing videos are tagged for older adults?",
+      "rows": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "Q05",
+      "question": "Which resources share a suggested topic with r034?",
+      "rows": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "Q06",
+      "question": "How many resources are tagged with each topic, including zero counts?",
+      "rows": 25,
+      "status": "PASS"
+    },
+    {
+      "id": "Q07",
+      "question": "What original citations support r022?",
+      "rows": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "Q08",
+      "question": "Which citation problems remain open?",
+      "rows": 30,
+      "status": "PASS"
+    },
+    {
+      "id": "Q09",
+      "question": "Which possible duplicate pairs need review?",
+      "rows": 3,
+      "status": "PASS"
+    },
+    {
+      "id": "Q10",
+      "question": "What is the current verification status of the resources?",
+      "rows": 3,
+      "status": "PASS"
+    },
+    {
+      "id": "Q11",
+      "question": "Which phishing videos meet an example approved-only policy?",
+      "rows": 0,
+      "status": "PASS"
+    },
+    {
+      "id": "Q12",
+      "question": "What citation evidence supports the shared-topic link from r034?",
+      "rows": 2,
+      "status": "PASS"
+    },
+    {
+      "id": "Q13",
+      "question": "Does r003 retain the original creator order?",
+      "rows": 4,
+      "status": "PASS"
+    },
+    {
+      "id": "Q14",
+      "question": "Which resources have a supplied telephone identifier?",
+      "rows": 1,
+      "status": "PASS"
+    }
+  ],
+  "walkthrough_queries": [
+    {
+      "file": "00_overview.cypher",
+      "status": "PASS",
+      "nodes": 17,
+      "relationships": 27,
+      "labels": [
+        "AgeDefinition",
+        "Agent",
+        "Audience",
+        "AudienceAssignment",
+        "Contribution",
+        "Format",
+        "FormatAssignment",
+        "Identifier",
+        "ImportBatch",
+        "Mention",
+        "PlanningStatement",
+        "QualityIssue",
+        "Resource",
+        "ResourceLink",
+        "SourceDocument",
+        "Topic",
+        "TopicAssignment"
+      ],
+      "ids": [],
+      "relationship_types": [
+        "ASSIGNS_AUDIENCE",
+        "ASSIGNS_FORMAT",
+        "ASSIGNS_TOPIC",
+        "CREDITS_AGENT",
+        "DEFINES_AUDIENCE",
+        "EVIDENCED_BY",
+        "FROM_EVIDENCE",
+        "HAS_AUDIENCE_ASSIGNMENT",
+        "HAS_CONTRIBUTION",
+        "HAS_FORMAT_ASSIGNMENT",
+        "HAS_IDENTIFIER",
+        "HAS_ISSUE",
+        "HAS_MENTION",
+        "HAS_RESOURCE_LINK",
+        "HAS_TOPIC_ASSIGNMENT",
+        "IMPORTS_SOURCE",
+        "REFERS_TO",
+        "STATES",
+        "TARGETS_RESOURCE",
+        "TO_EVIDENCE"
+      ]
+    },
+    {
+      "file": "01_resource_description_schema.cypher",
+      "status": "PASS",
+      "nodes": 8,
+      "relationships": 10,
+      "labels": [
+        "Audience",
+        "AudienceAssignment",
+        "Format",
+        "FormatAssignment",
+        "Mention",
+        "Resource",
+        "Topic",
+        "TopicAssignment"
+      ],
+      "ids": [],
+      "relationship_types": [
+        "ASSIGNS_AUDIENCE",
+        "ASSIGNS_FORMAT",
+        "ASSIGNS_TOPIC",
+        "EVIDENCED_BY",
+        "HAS_AUDIENCE_ASSIGNMENT",
+        "HAS_FORMAT_ASSIGNMENT",
+        "HAS_TOPIC_ASSIGNMENT",
+        "REFERS_TO"
+      ]
+    },
+    {
+      "file": "01_resource_description_example.cypher",
+      "status": "PASS",
+      "nodes": 8,
+      "relationships": 9,
+      "labels": [
+        "Audience",
+        "AudienceAssignment",
+        "CatalogRecord",
+        "Format",
+        "FormatAssignment",
+        "Mention",
+        "Resource",
+        "Topic",
+        "TopicAssignment"
+      ],
+      "ids": [
+        "older_adults",
+        "phishing",
+        "r034",
+        "video",
+        "video-02"
+      ],
+      "relationship_types": [
+        "ASSIGNS_AUDIENCE",
+        "ASSIGNS_FORMAT",
+        "ASSIGNS_TOPIC",
+        "EVIDENCED_BY",
+        "HAS_AUDIENCE_ASSIGNMENT",
+        "HAS_FORMAT_ASSIGNMENT",
+        "HAS_TOPIC_ASSIGNMENT"
+      ]
+    },
+    {
+      "file": "02_agents_and_access_schema.cypher",
+      "status": "PASS",
+      "nodes": 5,
+      "relationships": 6,
+      "labels": [
+        "Agent",
+        "Contribution",
+        "Identifier",
+        "Mention",
+        "Resource"
+      ],
+      "ids": [],
+      "relationship_types": [
+        "CREDITS_AGENT",
+        "EVIDENCED_BY",
+        "HAS_CONTRIBUTION",
+        "HAS_IDENTIFIER",
+        "REFERS_TO"
+      ]
+    },
+    {
+      "file": "02_agents_and_access_example.cypher",
+      "status": "PASS",
+      "nodes": 5,
+      "relationships": 5,
+      "labels": [
+        "Agent",
+        "CatalogRecord",
+        "Contribution",
+        "Identifier",
+        "Mention",
+        "Resource"
+      ],
+      "ids": [
+        "a017",
+        "bib-10",
+        "i013",
+        "r010"
+      ],
+      "relationship_types": [
+        "CREDITS_AGENT",
+        "EVIDENCED_BY",
+        "HAS_CONTRIBUTION",
+        "HAS_IDENTIFIER"
+      ]
+    },
+    {
+      "file": "03_provenance_and_review_schema.cypher",
+      "status": "PASS",
+      "nodes": 6,
+      "relationships": 5,
+      "labels": [
+        "ImportBatch",
+        "Mention",
+        "PlanningStatement",
+        "QualityIssue",
+        "Resource",
+        "SourceDocument"
+      ],
+      "ids": [],
+      "relationship_types": [
+        "HAS_ISSUE",
+        "HAS_MENTION",
+        "IMPORTS_SOURCE",
+        "REFERS_TO",
+        "STATES"
+      ]
+    },
+    {
+      "file": "03_provenance_and_review_example.cypher",
+      "status": "PASS",
+      "nodes": 7,
+      "relationships": 6,
+      "labels": [
+        "CatalogRecord",
+        "ImportBatch",
+        "Mention",
+        "PlanningStatement",
+        "QualityIssue",
+        "Resource",
+        "SourceDocument"
+      ],
+      "ids": [
+        "32d4cb61c14e276e508bf805fd1c63ac33bd8cce6397863c8410baba608c957b",
+        "bib-08",
+        "plan-audiences",
+        "q001",
+        "q002",
+        "r008",
+        "vpl1"
+      ],
+      "relationship_types": [
+        "HAS_ISSUE",
+        "HAS_MENTION",
+        "IMPORTS_SOURCE",
+        "REFERS_TO",
+        "STATES"
+      ]
+    },
+    {
+      "file": "04_vocabulary_and_age_schema.cypher",
+      "status": "PASS",
+      "nodes": 4,
+      "relationships": 4,
+      "labels": [
+        "AgeDefinition",
+        "Audience",
+        "SourceDocument",
+        "Topic"
+      ],
+      "ids": [],
+      "relationship_types": [
+        "DEFINES_AUDIENCE",
+        "STATES"
+      ]
+    },
+    {
+      "file": "04_vocabulary_and_age_example.cypher",
+      "status": "PASS",
+      "nodes": 7,
+      "relationships": 10,
+      "labels": [
+        "AgeDefinition",
+        "Audience",
+        "CatalogRecord",
+        "SourceDocument",
+        "Topic"
+      ],
+      "ids": [
+        "age1",
+        "age2",
+        "age3",
+        "age4",
+        "older_adults",
+        "phishing",
+        "vpl1"
+      ],
+      "relationship_types": [
+        "DEFINES_AUDIENCE",
+        "STATES"
+      ]
+    },
+    {
+      "file": "05_resource_links_schema.cypher",
+      "status": "PASS",
+      "nodes": 3,
+      "relationships": 5,
+      "labels": [
+        "Mention",
+        "Resource",
+        "ResourceLink"
+      ],
+      "ids": [],
+      "relationship_types": [
+        "FROM_EVIDENCE",
+        "HAS_RESOURCE_LINK",
+        "REFERS_TO",
+        "TARGETS_RESOURCE",
+        "TO_EVIDENCE"
+      ]
+    },
+    {
+      "file": "05_resource_links_example.cypher",
+      "status": "PASS",
+      "nodes": 5,
+      "relationships": 6,
+      "labels": [
+        "CatalogRecord",
+        "Mention",
+        "Resource",
+        "ResourceLink"
+      ],
+      "ids": [
+        "bib-31",
+        "r031",
+        "r043",
+        "rel001",
+        "video-11"
+      ],
+      "relationship_types": [
+        "FROM_EVIDENCE",
+        "HAS_RESOURCE_LINK",
+        "REFERS_TO",
+        "TARGETS_RESOURCE",
+        "TO_EVIDENCE"
+      ]
+    }
+  ]
+}
