@@ -2,11 +2,11 @@
 
 ## Overall graph: what is stored?
 
-This graph uses the same [catalog.json](data/catalog.json) as the original prototype: **49 resource records and 50 original citation occurrences** from `VPL-1_resources.pdf`. A `Resource` stores catalog metadata; a `Mention` stores a citation occurrence, its text, and page location. Assignments connect resources to shared topics, audiences, and formats while retaining the classification basis and review state.
+This graph uses the same [catalog.json](data/catalog.json) as the original prototype: **49 resource records and 50 original citation occurrences** from `VPL-1_resources.pdf`. A `Resource` stores catalog metadata; a `Mention` stores a citation occurrence, its text, and page location. Assignments connect resources to shared topics, audiences, and formats while retaining the classification basis and citation evidence. Topic and audience assignments also keep review states.
 
 ![Catalog type overview](neo4j_demo/images/00_overview.svg)
 
-*Type overview. Lime: Resource. Orange: Mention. Olive: TopicAssignment. The examples below show individual records.*
+*Type overview. Lime: Resource. Orange: Mention. Olive: TopicAssignment. Parts 1–4 show node types and their paths; Part 5 shows individual records.*
 
 <details>
 <summary>Simplified reading map</summary>
@@ -21,6 +21,10 @@ flowchart TD
     R -->|"via ResourceLink"| O["Another Resource"]
     M -->|HAS_ISSUE| Q["QualityIssue"]
 ```
+
+Read the top path first: `SourceDocument` is the original resource list; `Mention` preserves one citation and its page location; `Resource` is the corresponding catalog record. From Resource, the branches lead to classifications, contributors, identifiers, and related resources. `QualityIssue` stays attached to the citation that needs checking.
+
+The “via” arrows summarize paths through intermediate records. Assignments, contributions, and identifiers also link back to their citation evidence; Parts 1–2 show those links in full.
 
 </details>
 
@@ -52,9 +56,9 @@ In Browser, paste one query, click **Run**, and choose **Graph**. Drag nodes to 
 
 ## 1. How resources are described and classified
 
-![r034 classification example](neo4j_demo/images/01_resource_description_example.svg)
+![Resource description and classification types](neo4j_demo/images/01_resource_description_example.svg)
 
-*Actual records for r034. Its topic, audience, and format assignments lead to Phishing, Older adults, and Video. All three assignments use citation video-02.*
+*Type view. Follow the lime Resource circle through assignment records to Topic, Audience, and Format. Each assignment links to an orange Mention as citation evidence.*
 
 **Nodes:** `Resource` is the catalog item; `Topic`, `Audience`, and `Format` are reusable classification terms. `TopicAssignment`, `AudienceAssignment`, and `FormatAssignment` record a particular resource-to-term assignment. `Mention` supplies its citation evidence.
 
@@ -66,7 +70,7 @@ In Browser, paste one query, click **Run**, and choose **Graph**. Drag nodes to 
 | Each assignment `→ EVIDENCED_BY → Mention` | Citation used to support that assignment. |
 | `Mention → REFERS_TO → Resource` | Resource identified by the citation. |
 
-For `r034`, the phishing assignment records `basis=inferred_from_citation`, `review_status=proposed`, and `source_mention_id=video-02`. Proposed assignments await catalog-maintainer review. Topic and audience assignments have review states. Format assignments currently store a basis and citation, with no review-state field.
+**Data example:** For `r034`, the phishing assignment records `basis=inferred_from_citation`, `review_status=proposed`, and `source_mention_id=video-02`. Proposed assignments await catalog-maintainer review. Topic and audience assignments have review states. Format assignments currently store a basis and citation, with no review-state field.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -92,13 +96,13 @@ RETURN nodes,
 
 </details>
 
-[Real-record example: r034](neo4j_demo/queries/01_resource_description_example.cypher) · Optional type-level schema view: **8 type nodes, 10 arrows**.
+[Real-record example: r034](neo4j_demo/queries/01_resource_description_example.cypher) · Type view shown above: **8 type nodes, 10 arrows**.
 
 ## 2. People, organizations, and access
 
-![r010 contributors and access example](neo4j_demo/images/02_agents_and_access.svg)
+![Contributor and access-information types](neo4j_demo/images/02_agents_and_access.svg)
 
-*Actual records for r010. Contribution links the resource to the FBI, and Identifier stores its access information. Both use citation bib-10.*
+*Type view. From Resource, one branch leads through Contribution to Agent; another leads to Identifier. Contribution and Identifier both link to Mention for citation evidence.*
 
 **Nodes:** `Agent` identifies a person or organization. `Contribution` records their role for one `Resource`, including `contribution_role` and `credit_order`. `Identifier` stores a URL, DOI, or resource contact number. `Mention` supplies the citation evidence.
 
@@ -110,7 +114,7 @@ RETURN nodes,
 | `Identifier → EVIDENCED_BY → Mention` | Source of the identifier. |
 | `Mention → REFERS_TO → Resource` | Citation-to-resource link. |
 
-For `r010`, the FBI has the role `creator`, supported by `bib-10`. The role comes from the contribution record. A telephone identifier here is a listed resource contact number.
+**Data example:** For `r010`, the FBI has the role `creator`, supported by `bib-10`. The role comes from the contribution record. A telephone identifier here is a listed resource contact number.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -133,13 +137,13 @@ RETURN nodes,
 
 </details>
 
-[Real-record example: FBI and r010](neo4j_demo/queries/02_agents_and_access_example.cypher) · Optional type-level schema view: **5 type nodes, 6 arrows**.
+[Real-record example: FBI and r010](neo4j_demo/queries/02_agents_and_access_example.cypher) · Type view shown above: **5 type nodes, 6 arrows**.
 
 ## 3. Sources, imports, and review issues
 
-![bib-08 provenance and review example](neo4j_demo/images/03_provenance_and_review.svg)
+![Source, import, and review-issue types](neo4j_demo/images/03_provenance_and_review.svg)
 
-*Actual records for bib-08 and r008, with two quality issues and a source planning statement. The node captioned 541 is ImportBatch, displaying its total catalog-row count across the source arrays.*
+*Type view. Trace ImportBatch → SourceDocument → Mention → Resource. The branches retain citation-level QualityIssue records and source-level PlanningStatement records.*
 
 **Nodes:** `ImportBatch` records when data was imported, its snapshot hash, and source commit. `SourceDocument` stores the source file's metadata; `Mention` stores a citation occurrence; `Resource` is the normalized catalog record. `QualityIssue` records a specific data problem. `PlanningStatement` preserves collection goals or audience notes from the source document.
 
@@ -151,7 +155,7 @@ RETURN nodes,
 | `Mention → HAS_ISSUE → QualityIssue` | Problem attached to that citation. |
 | `SourceDocument → STATES → PlanningStatement` | Planning text preserved from the source. |
 
-Example: `bib-08` on source page 2 identifies `r008` and has an open `missing_locator` issue. Maintainers can check the source, supply a verified locator, and update the issue. Issue states are `open`, `resolved`, or `dismissed`. They track data problems; assignment approval and resource verification are separate fields.
+**Data example:** `bib-08` on source page 2 identifies `r008` and has an open `missing_locator` issue. Maintainers can check the source, supply a verified locator, and update the issue. Issue states are `open`, `resolved`, or `dismissed`. They track data problems; assignment approval and resource verification are separate fields.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -175,13 +179,13 @@ RETURN nodes,
 
 </details>
 
-[Real-record example: bib-08 and its issues](neo4j_demo/queries/03_provenance_and_review_example.cypher) · Optional type-level schema view: **6 type nodes, 5 arrows**.
+[Real-record example: bib-08 and its issues](neo4j_demo/queries/03_provenance_and_review_example.cypher) · Type view shown above: **6 type nodes, 5 arrows**.
 
 ## 4. Where terms and age definitions come from
 
-![Vocabulary and age example](neo4j_demo/images/04_vocabulary_and_age.svg)
+![Vocabulary provenance and age-definition types](neo4j_demo/images/04_vocabulary_and_age.svg)
 
-*Actual records: the source file states the Phishing topic, Older adults audience, and four age definitions. Each age definition points to Older adults.*
+*Type view. SourceDocument records the provenance of Topic, Audience, and AgeDefinition. AgeDefinition points to the audience it defines; its single type circle can represent several age records.*
 
 **Nodes:** `Topic` and `Audience` are reusable vocabulary terms. `SourceDocument` identifies their source. `AgeDefinition` preserves an age condition associated with an audience.
 
@@ -194,7 +198,7 @@ RETURN nodes,
 
 The catalog marks **20 topics** as `source_planning_vocabulary` and **5** as `curator_extension_from_citation`. The terms come from the source planning text and extensions based on citations. Import code connects the terms already present in JSON. Broader vocabulary groups can be added once the team agrees on definitions. Content concepts can reuse Topic IDs where their meanings match.
 
-Four source-page-1 age records point to `older_adults`: `>=55`, `>=60`, `>=65`, and `>65`. All are `unresolved`. `minimum_age`, `comparison_operator`, and `evidence` preserve the distinct source wording for team review.
+**Data example:** Four source-page-1 age records point to `older_adults`: `>=55`, `>=60`, `>=65`, and `>65`. All are `unresolved`. `minimum_age`, `comparison_operator`, and `evidence` preserve the distinct source wording for team review.
 
 <details>
 <summary>Run this view in Neo4j Browser</summary>
@@ -216,13 +220,13 @@ RETURN nodes,
 
 </details>
 
-[Real-record example: four older-adult age definitions](neo4j_demo/queries/04_vocabulary_and_age_example.cypher) · Optional type-level schema view: **4 type nodes, 4 arrows**.
+[Real-record example: four older-adult age definitions](neo4j_demo/queries/04_vocabulary_and_age_example.cypher) · Type view shown above: **4 type nodes, 4 arrows**.
 
 ## 5. Resource connections and content knowledge
 
 ![Actual rel001 resource association](neo4j_demo/images/05_resource_links.svg)
 
-This screenshot shows **real records: 5 nodes and 6 arrows**. `r031` and `r043` are separate resources. The middle `ResourceLink` is `rel001`; `bib-31` and `video-11` are the two citation records.
+This screenshot shows **real records: 5 nodes and 6 arrows**. `r031` and `r043` are separate resources. The `ResourceLink` between them is `rel001`; `bib-31` and `video-11` are the two citation records.
 
 | Arrow | Meaning |
 | --- | --- |
