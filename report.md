@@ -1,7 +1,0 @@
-The data includes incomplete titles, missing links, possible duplicates, and different age definitions for “elder.” I preserved the original citations and page references so these issues can be checked later. Uncertain matches remain separate. Topic and audience labels are marked as proposed because the resources have not been fully reviewed.
-
-I compared MySQL and Neo4j. MySQL is the recommended starting point because the collection mainly needs catalog editing, searching, filtering, and reports. Resources, contributors, topics, audiences, and formats are stored separately and connected through relationship tables. Neo4j provides another way to explore connections, such as resources that share topics or contributors.
-
-I built schemas, import scripts, and example queries for both databases. I also created a local SQLite demo so the data can be searched without running database servers. Docker configuration and instructions are included for testing MySQL and Neo4j.
-
-Twenty-one local tests passed. These checked data counts, source references, dates, search results, relationships, and repeated imports. The MySQL and Neo4j integration tests remain unrun because the Docker engine was unavailable. The citations and website links have not been independently verified.
