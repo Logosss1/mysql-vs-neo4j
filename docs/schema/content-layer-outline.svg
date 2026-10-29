@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Proposed content layer for the anti-fraud library</title>
+<desc id="desc">Catalog provenance connects to Resource. Resource has EvidenceSpan. KnowledgeAssertion is supported by EvidenceSpan and uses Concept. New records are a design proposal.</desc>
+<defs><marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0 L10 4 L0 8 Z" fill="#595959"/></marker></defs>
+<rect width="1600" height="900" fill="white"/>
+<g font-family="Times New Roman, Liberation Serif, serif" fill="black">
+<text x="40" y="58" font-size="34" font-weight="bold" text-anchor="start">Proposed content layer for the anti-fraud library</text>
+<text x="40" y="100" font-size="24" font-weight="normal" text-anchor="start">Catalog records connect to source passages and reviewable statements</text>
+<rect x="40" y="125" width="1510" height="195" fill="none" stroke="#9FBACA" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="60" y="159" font-size="23" font-weight="normal" text-anchor="start">Existing catalog in the v2 design</text>
+<rect x="40" y="370" width="1510" height="275" fill="none" stroke="#9FBACA" stroke-width="1.5" stroke-dasharray="7 6"/>
+<text x="60" y="404" font-size="23" font-weight="normal" text-anchor="start">Proposed content records</text>
+<polyline points="350,240 520,240" fill="none" stroke="#595959" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="790,240 1090,240" fill="none" stroke="#595959" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="1265,285 1265,470" fill="none" stroke="#595959" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="890,537 1050,537" fill="none" stroke="#595959" stroke-width="2" marker-end="url(#arrow)"/>
+<polyline points="520,537 350,537" fill="none" stroke="#595959" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="70" y="195" width="280" height="90" rx="18" fill="#DCEAF2" stroke="#4B819C" stroke-width="2"/>
+<text x="210.0" y="228" font-size="28" font-weight="bold" text-anchor="middle">SourceDocument</text>
+<text x="210.0" y="261" font-size="21" font-weight="normal" text-anchor="middle">Original resource list</text>
+<rect x="520" y="195" width="270" height="90" rx="18" fill="#DCEAF2" stroke="#4B819C" stroke-width="2"/>
+<text x="655.0" y="228" font-size="28" font-weight="bold" text-anchor="middle">Citation</text>
+<text x="655.0" y="261" font-size="21" font-weight="normal" text-anchor="middle">Citation in that list</text>
+<rect x="1090" y="195" width="350" height="90" rx="18" fill="#FFEB9D" stroke="#C18D00" stroke-width="2"/>
+<text x="1265.0" y="228" font-size="28" font-weight="bold" text-anchor="middle">Resource</text>
+<text x="1265.0" y="261" font-size="21" font-weight="normal" text-anchor="middle">Existing catalog item</text>
+<rect x="70" y="470" width="280" height="135" rx="18" fill="#E4F1DF" stroke="#549345" stroke-width="2"/>
+<text x="210.0" y="503" font-size="28" font-weight="bold" text-anchor="middle">Concept</text>
+<text x="210.0" y="536" font-size="21" font-weight="normal" text-anchor="middle">id, kind, label, definition</text>
+<rect x="520" y="470" width="370" height="135" rx="18" fill="#EFE2EE" stroke="#96538B" stroke-width="2"/>
+<text x="705.0" y="503" font-size="28" font-weight="bold" text-anchor="middle">KnowledgeAssertion</text>
+<text x="705.0" y="536" font-size="21" font-weight="normal" text-anchor="middle">Source-based statement</text>
+<text x="705.0" y="565" font-size="21" font-weight="normal" text-anchor="middle">context, review_status</text>
+<rect x="1050" y="470" width="430" height="135" rx="18" fill="#DCEAF2" stroke="#4B819C" stroke-width="2"/>
+<text x="1265.0" y="503" font-size="28" font-weight="bold" text-anchor="middle">EvidenceSpan</text>
+<text x="1265.0" y="536" font-size="21" font-weight="normal" text-anchor="middle">Exact text, source_version</text>
+<text x="1265.0" y="565" font-size="21" font-weight="normal" text-anchor="middle">PDF page / web paragraph / timestamp</text>
+<text x="435.0" y="224" font-size="18" font-weight="normal" text-anchor="middle">HAS_CITATION</text>
+<text x="935.0" y="224" font-size="18" font-weight="normal" text-anchor="middle">CITES</text>
+<text x="1412.5" y="355" font-size="18" font-weight="normal" text-anchor="middle">HAS_EVIDENCE_SPAN</text>
+<text x="970.0" y="522" font-size="18" font-weight="normal" text-anchor="middle">SUPPORTED_BY</text>
+<text x="435.0" y="522" font-size="18" font-weight="normal" text-anchor="middle">USES_CONCEPT</text>
+<text x="60" y="702" font-size="22" font-weight="normal" text-anchor="start">Candidate concept kinds: scam type, contact channel, manipulation, requested action, response action</text>
+<text x="60" y="752" font-size="22" font-weight="normal" text-anchor="start">Reuse Topic IDs where definitions match. Keep the existing catalog classifications.</text>
+<text x="60" y="802" font-size="22" font-weight="normal" text-anchor="start">Review history and extraction runs are the next design decisions.</text>
+<text x="60" y="868" font-size="16" font-weight="normal" text-anchor="start">JCDL 2026: Chekuri &amp; Fox §§3–4; Chen et al. §3.1; Aboelnaga et al. §§3.2–4; Gordea &amp; Cotea §2</text>
+</g></svg>

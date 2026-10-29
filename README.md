@@ -21,6 +21,8 @@ Every catalog node also has the technical label `CatalogRecord`, used for import
 
 **Version:** this demo runs the **v1** schema used in the meeting, with separate assignment nodes. Each section explains the proposed compact **v2 design** alongside it. V2 is documented here as a design comparison.
 
+The [v3 content-layer outline](docs/schema-design.md) adds source passages and reviewable statements to the design. The running demo below continues to use v1.
+
 <details>
 <summary>Run this view in Neo4j Browser</summary>
 
@@ -257,6 +259,14 @@ RETURN p, e1, e2, c1, c2;
 
 [Type-level view: 3 types and 5 arrows](neo4j_demo/queries/05_resource_links_schema.cypher).
 
+## Proposed content layer
+
+The next design step is to connect resources to exact passages and statements drawn from them. `EvidenceSpan` preserves source text, version, and location. `KnowledgeAssertion` retains its interpretation and review state. Shared `Concept` terms connect relevant content across resources.
+
+![Proposed content layer](docs/schema/content-layer-outline.svg)
+
+Read the [schema outline and JCDL methods](docs/schema-design.md), open the [editable design slides](docs/schema/Neo4j_Schema_Outline_v3_Editable.pptx), or use the [English Word outline](docs/schema/Schema_Outline_and_Discussion_EN.docx). [Questions for Zong-Hua](docs/schema-discussion.md) are listed separately. This is a design proposal. The existing data and live database are unchanged.
+
 ## Run the demo
 
 Run commands from the repository root. Use Python 3.10+ and Docker Desktop for a new database. If a matching v1 demo is already running, use it directly.
@@ -303,7 +313,7 @@ The package targets snapshot SHA-256 `32d4cb61c14e276e508bf805fd1c63ac33bd8cce63
 
 ## Database choice for this catalog
 
-MySQL remains the current preference for catalog entry, filtering, counts, and review. Neo4j makes relationships and supporting paths easier to explore. Future graph requirements should be backed by useful relationship queries. This walkthrough compares data organization and query results; database speed has not been benchmarked. See the [original prototype setup](docs/original-prototype.md) for the MySQL and SQLite commands.
+MySQL remains the current preference for catalog entry, filtering, counts, and review. Neo4j makes relationships and supporting paths easier to explore. The proposed content layer gives us concrete questions to use when reconsidering graph requirements. This walkthrough compares data organization and query results; database speed has not been benchmarked. See the [original prototype setup](docs/original-prototype.md) for the MySQL and SQLite commands.
 
 ## Code and references
 
